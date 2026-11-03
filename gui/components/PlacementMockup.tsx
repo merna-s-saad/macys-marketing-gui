@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { X, Maximize2 } from "lucide-react";
 
-import { API_BASE } from "@/lib/api";
+import { damImageUrl } from "@/lib/api";
 
 /**
  * Renders an ad-style visual mockup: real DAM photo background with
@@ -62,7 +62,7 @@ export function PlacementMockup({
 }) {
   const [enlarged, setEnlarged] = useState(false);
   const config = PLACEMENT_CONFIG[placement] ?? PLACEMENT_CONFIG.web_banner;
-  const imgUrl = assetFilename ? `${API_BASE}/images/dam/${assetFilename}` : null;
+  const imgUrl = assetFilename ? damImageUrl(assetFilename) : null;
 
   const mockupContent = (
     <div className={`relative ${config.aspectClass} w-full overflow-hidden rounded-lg bg-charcoal/10`}>

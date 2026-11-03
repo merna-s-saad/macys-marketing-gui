@@ -9,7 +9,7 @@ import {
   ShoppingBag,
 } from "lucide-react";
 
-import { API_BASE, runDam, runFindDamAssets, type DamAsset, type DamStats, type FindDamAssetsResult } from "@/lib/api";
+import { damImageUrl, runDam, runFindDamAssets, type DamAsset, type DamStats, type FindDamAssetsResult } from "@/lib/api";
 import { ActionFooter, ContextStack, StepVideoBackground, type StepContentProps } from "./shared";
 
 /* ── Accordion-style image strip gallery ── */
@@ -28,7 +28,7 @@ function DamAccordion({
   return (
     <div className="flex h-[380px] gap-1 rounded-xl overflow-hidden bg-charcoal/5">
       {assets.map((asset, i) => {
-        const imgUrl = `${API_BASE}/images/dam/${asset.filename}`;
+        const imgUrl = damImageUrl(asset.filename);
         const isExpanded = expandedIdx === i;
         const isIncluded = included.has(asset.asset_id);
 

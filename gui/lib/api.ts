@@ -17,6 +17,16 @@ import {
 export const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
+// DAM asset thumbnails are normally served by the backend at
+// /images/dam/{filename}. In static mode there's no backend, so these must
+// resolve to the locally bundled copies under gui/public/static-demo/assets/
+// instead — otherwise every DAM image request leaks to onrender.com
+// regardless of any fetch()-level guard, since <img src> isn't a fetch call.
+export function damImageUrl(filename: string): string {
+  if (IS_STATIC_DEMO) return `/static-demo/assets/${filename}`;
+  return `${API_BASE}/images/dam/${filename}`;
+}
+
 // Render free tier sleeps after ~15 minutes of inactivity. The first request
 // after sleep takes 30 to 90 seconds while the dyno spins up. Timeout is set
 // to 120s to cover cold starts. Retries once on timeout or 503.

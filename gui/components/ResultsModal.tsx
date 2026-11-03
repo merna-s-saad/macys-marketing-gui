@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Loader2, X, AlertTriangle } from "lucide-react";
 
 import {
-  API_BASE,
+  damImageUrl,
   runAnalyze,
   runDam,
   runLocalize,
@@ -285,7 +285,7 @@ function DamResults({ data }: { data: DamResult }) {
               {/* Plain img tag (not Next/Image) so a missing file falls back gracefully. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={`${API_BASE}/images/dam/${a.filename}`}
+                src={damImageUrl(a.filename)}
                 alt={a.filename}
                 className="h-full w-full object-cover"
                 onError={(e) => {
