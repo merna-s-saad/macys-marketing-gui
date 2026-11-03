@@ -122,3 +122,54 @@ export async function advanceWalkthrough<T>(campaignId: string, step: number): P
 export function resetWalkthrough(campaignId: string): void {
   if (isWalkthroughCampaign(campaignId)) currentIndex = 0;
 }
+
+// Matches api/state.py's STEP_NAMES exactly, for sidebar-card fidelity.
+const STEP_NAMES: Record<number, string> = {
+  1: "Briefing",
+  2: "Segmentation",
+  3: "SKU Selection",
+  4: "Creative Production",
+  5: "Layout Assembly",
+  6: "Approval",
+  7: "Localization",
+  8: "Activation",
+  9: "Monitoring",
+  10: "Reporting",
+};
+
+/**
+ * Overrides the walkthrough campaign's entry in a /campaigns list response
+ * with its real current progress, mirroring api/routes/workflow.py's
+ * _merged_campaign(). Without this the sidebar's campaign card stays frozen
+ * at Step 1 while the main workflow panel correctly advances.
+ */
+export async function applyWalkthroughToCampaigns<T extends { id: string }>(
+  campaigns: T[],
+): Promise<T[]> {
+  const idx = await loadIndex().catch(() => null);
+  if (!idx) return campaigns;
+  const snapshot = await loadFile<{ current_step: number; is_complete: boolean }>(
+    idx.steps[currentIndex].state,
+  ).catch(() => null);
+  if (!snapshot) return campaigns;
+
+  return campaigns.map((c) => {
+    if (c.id !== WALKTHROUGH_CAMPAIGN_ID) return c;
+    const existing = c as unknown as { days_label?: string };
+    if (snapshot.is_complete) {
+      return {
+        ...c,
+        current_step: 10,
+        current_step_name: "Reporting",
+        status: "completed",
+        color_indicator: "gray",
+        days_label: existing.days_label ?? "Campaign complete",
+      } as T;
+    }
+    return {
+      ...c,
+      current_step: snapshot.current_step,
+      current_step_name: STEP_NAMES[snapshot.current_step] ?? `Step ${snapshot.current_step}`,
+    } as T;
+  });
+}

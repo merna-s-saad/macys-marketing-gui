@@ -7,6 +7,7 @@
 import { IS_STATIC_DEMO, resolveStatic } from "./static-demo";
 import {
   advanceWalkthrough,
+  applyWalkthroughToCampaigns,
   getWalkthroughAuditLog,
   getWalkthroughContext,
   getWalkthroughState,
@@ -364,7 +365,9 @@ export type Campaign = {
 };
 
 export async function fetchCampaigns(): Promise<Campaign[]> {
-  return fetchWithFallback<Campaign[]>("/campaigns", "campaigns_list");
+  const campaigns = await fetchWithFallback<Campaign[]>("/campaigns", "campaigns_list");
+  if (IS_STATIC_DEMO) return applyWalkthroughToCampaigns(campaigns);
+  return campaigns;
 }
 
 // ----- Campaign live state (approval flow) -----
