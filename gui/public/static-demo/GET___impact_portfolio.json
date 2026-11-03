@@ -7,12 +7,20 @@
       "is_complete": false,
       "completed_step_count": 0,
       "hero": {
-        "hours_saved": 0,
+        "labor_hours_saved": 0.0,
         "dollars_saved": 0,
-        "baseline_days": 46.5,
-        "ai_supported_days": 7.2,
-        "days_saved": 39.3,
-        "pct_reduction": 85
+        "dollars_saved_range": {
+          "low": 0,
+          "high": 0
+        },
+        "baseline_elapsed_days": 35.0,
+        "ai_elapsed_days": 8.0,
+        "pct_reduction": 0,
+        "full_campaign_pct_reduction": 77
+      },
+      "labor_totals": {
+        "baseline_hours": 154,
+        "ai_hours": 34
       },
       "steps": [
         {
@@ -29,9 +37,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 3.62,
-          "hours_saved": 21.8,
-          "dollars_saved": 1635
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 10,
+          "dollars_saved": 750
         },
         {
           "step": "2",
@@ -47,9 +56,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 2.12,
-          "hours_saved": 12.8,
-          "dollars_saved": 960
+          "baseline_labor_hours": 8,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 6,
+          "dollars_saved": 450
         },
         {
           "step": "3",
@@ -65,9 +75,10 @@
             "high": 0.75,
             "mid": 0.625
           },
-          "days_saved": 3.38,
-          "hours_saved": 20.2,
-          "dollars_saved": 1515
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 4,
+          "labor_hours_saved": 8,
+          "dollars_saved": 600
         },
         {
           "step": "4",
@@ -83,9 +94,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "5",
@@ -101,9 +113,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 4.5,
-          "hours_saved": 27.0,
-          "dollars_saved": 2025
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "6",
@@ -119,9 +132,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 4.62,
-          "hours_saved": 27.8,
-          "dollars_saved": 2085
+          "baseline_labor_hours": 20,
+          "ai_labor_hours": 3,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "7",
@@ -137,9 +151,10 @@
             "high": 0.25,
             "mid": 0.1875
           },
-          "days_saved": 6.31,
-          "hours_saved": 37.9,
-          "dollars_saved": 2842
+          "baseline_labor_hours": 18,
+          "ai_labor_hours": 1,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "8",
@@ -155,9 +170,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.62,
-          "hours_saved": 9.8,
-          "dollars_saved": 735
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "9",
@@ -173,9 +189,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.12,
-          "hours_saved": 6.8,
-          "dollars_saved": 510
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "10",
@@ -191,9 +208,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         }
       ],
       "quality": {
@@ -212,12 +230,20 @@
       "is_complete": true,
       "completed_step_count": 10,
       "hero": {
-        "hours_saved": 236.1,
-        "dollars_saved": 17707,
-        "baseline_days": 46.5,
-        "ai_supported_days": 7.2,
-        "days_saved": 39.3,
-        "pct_reduction": 85
+        "labor_hours_saved": 120.0,
+        "dollars_saved": 9000,
+        "dollars_saved_range": {
+          "low": 7200,
+          "high": 10800
+        },
+        "baseline_elapsed_days": 35.0,
+        "ai_elapsed_days": 8.0,
+        "pct_reduction": 77,
+        "full_campaign_pct_reduction": 77
+      },
+      "labor_totals": {
+        "baseline_hours": 154,
+        "ai_hours": 34
       },
       "steps": [
         {
@@ -234,9 +260,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 3.62,
-          "hours_saved": 21.8,
-          "dollars_saved": 1635
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 10,
+          "dollars_saved": 750
         },
         {
           "step": "2",
@@ -252,9 +279,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 2.12,
-          "hours_saved": 12.8,
-          "dollars_saved": 960
+          "baseline_labor_hours": 8,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 6,
+          "dollars_saved": 450
         },
         {
           "step": "3",
@@ -270,9 +298,10 @@
             "high": 0.75,
             "mid": 0.625
           },
-          "days_saved": 3.38,
-          "hours_saved": 20.2,
-          "dollars_saved": 1515
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 4,
+          "labor_hours_saved": 8,
+          "dollars_saved": 600
         },
         {
           "step": "4",
@@ -288,9 +317,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "5",
@@ -306,9 +336,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 4.5,
-          "hours_saved": 27.0,
-          "dollars_saved": 2025
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "6",
@@ -324,9 +355,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 4.62,
-          "hours_saved": 27.8,
-          "dollars_saved": 2085
+          "baseline_labor_hours": 20,
+          "ai_labor_hours": 3,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "7",
@@ -342,9 +374,10 @@
             "high": 0.25,
             "mid": 0.1875
           },
-          "days_saved": 6.31,
-          "hours_saved": 37.9,
-          "dollars_saved": 2842
+          "baseline_labor_hours": 18,
+          "ai_labor_hours": 1,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "8",
@@ -360,9 +393,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.62,
-          "hours_saved": 9.8,
-          "dollars_saved": 735
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "9",
@@ -378,9 +412,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.12,
-          "hours_saved": 6.8,
-          "dollars_saved": 510
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "10",
@@ -396,9 +431,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         }
       ],
       "quality": {
@@ -417,12 +453,20 @@
       "is_complete": false,
       "completed_step_count": 2,
       "hero": {
-        "hours_saved": 34.6,
-        "dollars_saved": 2595,
-        "baseline_days": 46.5,
-        "ai_supported_days": 7.2,
-        "days_saved": 39.3,
-        "pct_reduction": 85
+        "labor_hours_saved": 16.0,
+        "dollars_saved": 1200,
+        "dollars_saved_range": {
+          "low": 960,
+          "high": 1440
+        },
+        "baseline_elapsed_days": 35.0,
+        "ai_elapsed_days": 8.0,
+        "pct_reduction": 15,
+        "full_campaign_pct_reduction": 77
+      },
+      "labor_totals": {
+        "baseline_hours": 154,
+        "ai_hours": 34
       },
       "steps": [
         {
@@ -439,9 +483,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 3.62,
-          "hours_saved": 21.8,
-          "dollars_saved": 1635
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 10,
+          "dollars_saved": 750
         },
         {
           "step": "2",
@@ -457,9 +502,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 2.12,
-          "hours_saved": 12.8,
-          "dollars_saved": 960
+          "baseline_labor_hours": 8,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 6,
+          "dollars_saved": 450
         },
         {
           "step": "3",
@@ -475,9 +521,10 @@
             "high": 0.75,
             "mid": 0.625
           },
-          "days_saved": 3.38,
-          "hours_saved": 20.2,
-          "dollars_saved": 1515
+          "baseline_labor_hours": 12,
+          "ai_labor_hours": 4,
+          "labor_hours_saved": 8,
+          "dollars_saved": 600
         },
         {
           "step": "4",
@@ -493,9 +540,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "5",
@@ -511,9 +559,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 4.5,
-          "hours_saved": 27.0,
-          "dollars_saved": 2025
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         },
         {
           "step": "6",
@@ -529,9 +578,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 4.62,
-          "hours_saved": 27.8,
-          "dollars_saved": 2085
+          "baseline_labor_hours": 20,
+          "ai_labor_hours": 3,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "7",
@@ -547,9 +597,10 @@
             "high": 0.25,
             "mid": 0.1875
           },
-          "days_saved": 6.31,
-          "hours_saved": 37.9,
-          "dollars_saved": 2842
+          "baseline_labor_hours": 18,
+          "ai_labor_hours": 1,
+          "labor_hours_saved": 17,
+          "dollars_saved": 1275
         },
         {
           "step": "8",
@@ -565,9 +616,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.62,
-          "hours_saved": 9.8,
-          "dollars_saved": 735
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "9",
@@ -583,9 +635,10 @@
             "high": 0.5,
             "mid": 0.375
           },
-          "days_saved": 1.12,
-          "hours_saved": 6.8,
-          "dollars_saved": 510
+          "baseline_labor_hours": 6,
+          "ai_labor_hours": 2,
+          "labor_hours_saved": 4,
+          "dollars_saved": 300
         },
         {
           "step": "10",
@@ -601,9 +654,10 @@
             "high": 2,
             "mid": 1.5
           },
-          "days_saved": 6.0,
-          "hours_saved": 36.0,
-          "dollars_saved": 2700
+          "baseline_labor_hours": 24,
+          "ai_labor_hours": 6,
+          "labor_hours_saved": 18,
+          "dollars_saved": 1350
         }
       ],
       "quality": {
@@ -618,16 +672,82 @@
   ],
   "campaign_count": 3,
   "aggregate": {
-    "total_hours_saved": 270.7,
-    "total_dollars_saved": 20302,
-    "avg_dollars_per_campaign": 6767,
-    "projected_annual_savings": 554921,
-    "annual_campaign_volume": 82,
+    "total_labor_hours_saved": 136.0,
+    "total_dollars_saved": 10200,
+    "savings_per_completed_campaign": 9000,
+    "projected_annual_low": 585000,
+    "projected_annual_high": 900000,
     "annual_campaign_volume_low": 65,
     "annual_campaign_volume_high": 100,
-    "projected_annual_low": 439877,
-    "projected_annual_high": 676733,
     "hourly_rate": 75
+  },
+  "per_step_labor": [
+    {
+      "step": "1",
+      "step_name": "Briefing",
+      "baseline_hours": 12,
+      "ai_hours": 2
+    },
+    {
+      "step": "2",
+      "step_name": "Segmentation",
+      "baseline_hours": 8,
+      "ai_hours": 2
+    },
+    {
+      "step": "3",
+      "step_name": "SKU Selection",
+      "baseline_hours": 12,
+      "ai_hours": 4
+    },
+    {
+      "step": "4",
+      "step_name": "Creative Production",
+      "baseline_hours": 24,
+      "ai_hours": 6
+    },
+    {
+      "step": "5",
+      "step_name": "Layout Assembly",
+      "baseline_hours": 24,
+      "ai_hours": 6
+    },
+    {
+      "step": "6",
+      "step_name": "Final Approval",
+      "baseline_hours": 20,
+      "ai_hours": 3
+    },
+    {
+      "step": "7",
+      "step_name": "Localization",
+      "baseline_hours": 18,
+      "ai_hours": 1
+    },
+    {
+      "step": "8",
+      "step_name": "Activation",
+      "baseline_hours": 6,
+      "ai_hours": 2
+    },
+    {
+      "step": "9",
+      "step_name": "Monitoring",
+      "baseline_hours": 6,
+      "ai_hours": 2
+    },
+    {
+      "step": "10",
+      "step_name": "Reporting",
+      "baseline_hours": 24,
+      "ai_hours": 6
+    }
+  ],
+  "costs_not_netted": {
+    "ai_api_cost_per_campaign": "$0.50 to $2.00",
+    "ai_api_note": "5 LLM skills via TritonAI/Claude; 7 automations at negligible compute cost",
+    "pattern4_rework_per_campaign": "estimated 1-2h (~$75-$150) on ~30% of campaigns (estimated from limited testing, 2 runs, not a measured production rate)",
+    "pattern4_note": "Agentic compliance skill over-flags clean copy (Pattern 4 in test_report.md)"
   },
   "quality_aggregate": {
     "total_compliance_findings": 3,
