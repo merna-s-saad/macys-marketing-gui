@@ -18,6 +18,7 @@ async function aiRequest<T>(path: string, body: unknown): Promise<T> {
       await simulateLatency();
       return result;
     }
+    throw new Error(`[static-demo] no captured response for POST ${path}`);
   }
   // Retry up to twice on timeout or 503 (common during Render cold starts).
   for (let attempt = 0; attempt < 3; attempt++) {

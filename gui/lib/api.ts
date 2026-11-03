@@ -100,6 +100,17 @@ export async function callWithFallback<T>(
   cachedKey: string,
   opts: { timeoutMs?: number } = {},
 ): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>("POST", endpoint, body);
+    if (result !== null) return result;
+    const cached = await getCachedOutputs();
+    const fallback = cached[cachedKey];
+    if (fallback) {
+      console.debug(`[callWithFallback] ${cachedKey}: static-demo miss, using bundled fallback`);
+      return fallback as T;
+    }
+    throw new Error(`[static-demo] POST ${endpoint} has no capture and no cached fallback for ${cachedKey}`);
+  }
   const { timeoutMs = 10_000 } = opts;
   try {
     const controller = new AbortController();
@@ -154,6 +165,17 @@ export async function fetchWithFallback<T>(
   cachedKey: string,
   opts: { timeoutMs?: number } = {},
 ): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>("GET", path);
+    if (result !== null) return result;
+    const cached = await getCachedPanels();
+    const fallback = cached[cachedKey];
+    if (fallback) {
+      console.debug(`[fetchWithFallback] ${cachedKey}: static-demo miss, using bundled fallback`);
+      return fallback as T;
+    }
+    throw new Error(`[static-demo] GET ${path} has no capture and no cached fallback for ${cachedKey}`);
+  }
   const { timeoutMs = 10_000 } = opts;
   try {
     const controller = new AbortController();
@@ -189,6 +211,14 @@ export async function getWithOutputFallback<T>(
   cachedKey: string,
   opts: { timeoutMs?: number } = {},
 ): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>("GET", path);
+    if (result !== null) return result;
+    const cached = await getCachedOutputs();
+    const fallback = cached[cachedKey];
+    if (fallback) return fallback as T;
+    throw new Error(`[static-demo] GET ${path} has no capture and no cached fallback for ${cachedKey}`);
+  }
   const { timeoutMs = 10_000 } = opts;
   try {
     const controller = new AbortController();
@@ -218,6 +248,18 @@ export async function requestWithFallback<T>(
   init?: RequestInit,
   opts: { timeoutMs?: number } = {},
 ): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>(
+      init?.method ?? "GET",
+      path,
+      init?.body ? JSON.parse(init.body as string) : undefined,
+    );
+    if (result !== null) return result;
+    const cached = await getCachedPanels();
+    const fallback = cached[cachedKey];
+    if (fallback) return fallback as T;
+    throw new Error(`[static-demo] ${path} has no capture and no cached fallback for ${cachedKey}`);
+  }
   const { timeoutMs = 10_000 } = opts;
   try {
     const controller = new AbortController();
