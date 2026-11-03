@@ -1,0 +1,59 @@
+{
+  "current_step": 3,
+  "completed_steps": [
+    1,
+    2
+  ],
+  "step_outputs": {
+    "1": {
+      "approved": true
+    },
+    "2": {
+      "name": "VIP Loyalists",
+      "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+      "customer_count": 9590,
+      "avg_recency_days": 39.0,
+      "avg_frequency": 17.9,
+      "avg_monetary": 4037.7,
+      "top_category": "Accessories",
+      "top_category_lift": 0.156,
+      "override_reason": "",
+      "recommended_segment": "VIP Loyalists",
+      "was_override": false
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "step_name": "Briefing",
+      "action": "Approve Brief",
+      "ts": "2026-11-03T02:51:29.265434+00:00",
+      "metadata": {
+        "approved": true
+      }
+    },
+    {
+      "step": 2,
+      "step_name": "Segmentation",
+      "action": "Approve Segment",
+      "ts": "2026-11-03T02:51:29.277133+00:00",
+      "metadata": {
+        "name": "VIP Loyalists",
+        "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+        "customer_count": 9590,
+        "avg_recency_days": 39.0,
+        "avg_frequency": 17.9,
+        "avg_monetary": 4037.7,
+        "top_category": "Accessories",
+        "top_category_lift": 0.156,
+        "override_reason": "",
+        "recommended_segment": "VIP Loyalists",
+        "was_override": false
+      }
+    }
+  ],
+  "is_complete": false,
+  "revisions": {},
+  "pending_revision": null,
+  "evidence": {}
+}

@@ -5,6 +5,14 @@
 // backend on Vercel (set NEXT_PUBLIC_API_URL to the Render URL).
 
 import { IS_STATIC_DEMO, resolveStatic } from "./static-demo";
+import {
+  advanceWalkthrough,
+  getWalkthroughAuditLog,
+  getWalkthroughContext,
+  getWalkthroughState,
+  getWalkthroughWorkflow,
+  resetWalkthrough,
+} from "./static-demo-walkthrough";
 
 export const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
@@ -324,6 +332,10 @@ export type WorkflowStep = {
 };
 
 export async function fetchWorkflow(personaId: string, campaignId?: string): Promise<{ persona_id: string; steps: WorkflowStep[] }> {
+  if (IS_STATIC_DEMO && campaignId) {
+    const walk = await getWalkthroughWorkflow<{ persona_id: string; steps: WorkflowStep[] }>(personaId, campaignId);
+    if (walk) return walk;
+  }
   const qs = campaignId ? `?campaign_id=${encodeURIComponent(campaignId)}` : "";
   return request(`/workflow/${personaId}${qs}`);
 }
@@ -382,6 +394,10 @@ export type CampaignState = {
 };
 
 export async function fetchCampaignState(campaignId: string): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const walk = await getWalkthroughState<CampaignState>(campaignId);
+    if (walk) return walk;
+  }
   return request<CampaignState>(`/campaigns/${encodeURIComponent(campaignId)}/state`);
 }
 
@@ -419,6 +435,7 @@ export async function advanceCampaign(
 
 export async function resetCampaign(campaignId: string): Promise<CampaignState> {
   if (IS_STATIC_DEMO) {
+    resetWalkthrough(campaignId);
     const state = await resolveStatic<CampaignState>(
       "GET",
       `/campaigns/${encodeURIComponent(campaignId)}/state`,
@@ -622,6 +639,10 @@ export type CampaignContext = {
 };
 
 export async function fetchCampaignContext(campaignId: string): Promise<CampaignContext> {
+  if (IS_STATIC_DEMO) {
+    const walk = await getWalkthroughContext<CampaignContext>(campaignId);
+    if (walk) return walk;
+  }
   return request<CampaignContext>(`/campaigns/${encodeURIComponent(campaignId)}/context`);
 }
 
@@ -701,6 +722,10 @@ export async function escalateStep(campaignId: string, stepId: string, reason = 
 }
 
 export async function fetchAuditLog(campaignId: string): Promise<Array<Record<string, unknown>>> {
+  if (IS_STATIC_DEMO) {
+    const walk = await getWalkthroughAuditLog<Array<Record<string, unknown>>>(campaignId);
+    if (walk) return walk;
+  }
   return request(`/campaigns/${encodeURIComponent(campaignId)}/audit-log`);
 }
 
@@ -733,6 +758,8 @@ export async function advanceCampaignWithOutput(
   stepOutput?: Record<string, unknown>,
 ): Promise<CampaignState> {
   if (IS_STATIC_DEMO) {
+    const walk = await advanceWalkthrough<CampaignState>(campaignId, step);
+    if (walk) return walk;
     const state = await resolveStatic<CampaignState>(
       "GET",
       `/campaigns/${encodeURIComponent(campaignId)}/state`,

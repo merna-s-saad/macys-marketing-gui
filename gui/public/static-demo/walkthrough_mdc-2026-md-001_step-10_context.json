@@ -1,0 +1,1856 @@
+{
+  "campaign_brief": {
+    "campaign_id": "MDC-2026-MD-001",
+    "name": "Mother's Day Beauty Event",
+    "sponsor": "VP of Marketing",
+    "filed_days_before_launch": 12,
+    "objective": "Drive Beauty category revenue +20% vs last year's Mother's Day window. Win back lapsed Beauty buyers and acquire first-time Beauty customers from existing Macy's loyalists.",
+    "target_customer": "Women 28 to 55, Macy's Star Rewards members, with prior Beauty purchases or expressed Beauty preference. Emphasis on Gold and Platinum tier loyalty members.",
+    "promotional_offer": [
+      "25% off all Beauty (excluding fragrance and prestige skincare)",
+      "Free gift with purchase $75+",
+      "Free shipping on Beauty orders over $50"
+    ],
+    "campaign_window": {
+      "soft_launch": "14 days before Mother's Day",
+      "peak": "7 days before Mother's Day",
+      "closeout": "Mother's Day end of day"
+    },
+    "budget": {
+      "paid_media": "$1.2M",
+      "store_experience": "$400K",
+      "email_crm": "$200K",
+      "total": "$1.8M"
+    },
+    "success_metrics": {
+      "revenue_target": "$4.2M",
+      "roas_goal": "3.5x",
+      "new_beauty_customer_acquisition": "5,000+",
+      "email_open_rate": "22%+"
+    },
+    "constraints": [
+      "Legal review required for all final creative",
+      "Cannot include prestige skincare brands (Tom Ford, La Mer, etc.)",
+      "Regional pricing must reflect inventory levels",
+      "Must include Star Rewards member-exclusive offer"
+    ]
+  },
+  "state": {
+    "current_step": 11,
+    "completed_steps": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "step_outputs": {
+      "1": {
+        "approved": true
+      },
+      "2": {
+        "name": "VIP Loyalists",
+        "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+        "customer_count": 9590,
+        "avg_recency_days": 39.0,
+        "avg_frequency": 17.9,
+        "avg_monetary": 4037.7,
+        "top_category": "Accessories",
+        "top_category_lift": 0.156,
+        "override_reason": "",
+        "recommended_segment": "VIP Loyalists",
+        "was_override": false
+      },
+      "3": {
+        "approved_skus": [
+          "1406",
+          "782",
+          "1058",
+          "714",
+          "358",
+          "934",
+          "905",
+          "1331",
+          "864",
+          "1877",
+          "287",
+          "426",
+          "1480",
+          "1630",
+          "491",
+          "744",
+          "787",
+          "1358"
+        ],
+        "total_recommended": 18,
+        "excluded_count": 219,
+        "segment_used": "VIP Loyalists",
+        "segment_top_category": "Accessories",
+        "pricing_check": {
+          "ok": true,
+          "mcp_tool": "check_pricing_conflicts",
+          "status": "pass",
+          "conflicts": [],
+          "checked_count": 6,
+          "input": {
+            "sku_ids": [
+              "1406",
+              "782",
+              "1058",
+              "714",
+              "358",
+              "934"
+            ],
+            "proposed_discount_pct": 25.0
+          }
+        }
+      },
+      "4": {
+        "approved_assets": [
+          {
+            "asset_id": 660,
+            "filename": "luxury-perfume-bottle_06_79FmeCtL9NE.jpg",
+            "asset_type": "product",
+            "tags": [
+              "sale",
+              "model",
+              "lifestyle",
+              "luxury",
+              "womens",
+              "beauty"
+            ],
+            "resolution": "1920x1080",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2026-04-28",
+            "rank": 1
+          },
+          {
+            "asset_id": 658,
+            "filename": "perfume_05_xQwRvghauaU.jpg",
+            "asset_type": "product",
+            "tags": [
+              "mothers-day",
+              "outerwear"
+            ],
+            "resolution": "2560x1440",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.5,
+            "_created_date": "2023-02-15",
+            "rank": 2
+          },
+          {
+            "asset_id": 638,
+            "filename": "cosmetics_06_tWng4d9Njxo.jpg",
+            "asset_type": "lifestyle",
+            "tags": [
+              "mens",
+              "studio",
+              "model",
+              "beauty",
+              "dresses",
+              "outdoor"
+            ],
+            "resolution": "1920x1080",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2023-03-18",
+            "rank": 3
+          },
+          {
+            "asset_id": 607,
+            "filename": "spa-wellness_05_hCTLx7QrE-w.jpg",
+            "asset_type": "product",
+            "tags": [
+              "shoes",
+              "dresses",
+              "mothers-day",
+              "accessories"
+            ],
+            "resolution": "2560x1440",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.5,
+            "_created_date": "2025-03-16",
+            "rank": 4
+          },
+          {
+            "asset_id": 605,
+            "filename": "skincare_10_SfkPaoE_i34.jpg",
+            "asset_type": "product",
+            "tags": [
+              "fragrance",
+              "sale",
+              "dresses",
+              "mothers-day",
+              "summer"
+            ],
+            "resolution": "1920x1080",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.8,
+            "_created_date": "2024-09-09",
+            "rank": 5
+          },
+          {
+            "asset_id": 593,
+            "filename": "product-photography-white_04_y3On8ZLjSvY.jpg",
+            "asset_type": "product",
+            "tags": [
+              "mothers-day",
+              "flatlay",
+              "fragrance",
+              "home",
+              "outerwear"
+            ],
+            "resolution": "3840x2160",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.8,
+            "_created_date": "2022-09-12",
+            "rank": 6
+          },
+          {
+            "asset_id": 586,
+            "filename": "eyeshadow-palette_10_PZ_-sCaBCaQ.jpg",
+            "asset_type": "product",
+            "tags": [
+              "mens",
+              "home",
+              "model",
+              "beauty",
+              "skincare"
+            ],
+            "resolution": "3840x2160",
+            "usage_rights": "restricted",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2026-04-24",
+            "rank": 7
+          },
+          {
+            "asset_id": 555,
+            "filename": "cosmetics_08_DEuob2v77wI.jpg",
+            "asset_type": "lifestyle",
+            "tags": [
+              "luxury",
+              "beauty",
+              "model"
+            ],
+            "resolution": "3840x2160",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2025-03-08",
+            "rank": 8
+          },
+          {
+            "asset_id": 545,
+            "filename": "makeup-brushes-flatlay_09_TwMFnifOyI8.jpg",
+            "asset_type": "product",
+            "tags": [
+              "outdoor",
+              "mothers-day",
+              "luxury"
+            ],
+            "resolution": "2560x1440",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.5,
+            "_created_date": "2025-03-16",
+            "rank": 9
+          },
+          {
+            "asset_id": 539,
+            "filename": "summer-fashion-outfit_09_aX3wFOC87Z8.jpg",
+            "asset_type": "product",
+            "tags": [
+              "denim",
+              "mothers-day",
+              "valentines"
+            ],
+            "resolution": "2560x1440",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.5,
+            "_created_date": "2023-11-20",
+            "rank": 10
+          },
+          {
+            "asset_id": 524,
+            "filename": "beauty-editorial-photo_03_BzSfM6n_LIE.jpg",
+            "asset_type": "product",
+            "tags": [
+              "summer",
+              "spring",
+              "flatlay",
+              "lunar-new-year",
+              "beauty"
+            ],
+            "resolution": "2560x1440",
+            "usage_rights": "free",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2023-05-09",
+            "rank": 11
+          },
+          {
+            "asset_id": 519,
+            "filename": "moisturizer-cream-jar_04_1kCDtHVl064.jpg",
+            "asset_type": "product",
+            "tags": [
+              "winter",
+              "beauty",
+              "lifestyle",
+              "indoor",
+              "model"
+            ],
+            "resolution": "1920x1080",
+            "usage_rights": "restricted",
+            "relevance_score": 1.0,
+            "quality_flag": "clean",
+            "has_photo": true,
+            "_raw_relevance": 0.55,
+            "_created_date": "2024-06-29",
+            "rank": 12
+          }
+        ],
+        "approved_asset_count": 12,
+        "skus_from_step3": [
+          "1406",
+          "782",
+          "1058",
+          "714",
+          "358",
+          "934",
+          "905",
+          "1331",
+          "864",
+          "1877",
+          "287",
+          "426",
+          "1480",
+          "1630",
+          "491",
+          "744",
+          "787",
+          "1358"
+        ],
+        "category": "Beauty",
+        "find_dam_assets_result": {
+          "ok": true,
+          "mcp_tool": "find_dam_assets",
+          "status": "pass",
+          "assets": [
+            {
+              "asset_id": "DAM-BTY-SP26-014",
+              "filename": "beauty_skincare_hero.jpg",
+              "tag_list": "skincare,hero,spring,model",
+              "region_rights": "NY,CA,FL,TX,PR"
+            },
+            {
+              "asset_id": "DAM-BTY-SP26-021",
+              "filename": "beauty_serum_lifestyle.jpg",
+              "tag_list": "serum,lifestyle,natural light",
+              "region_rights": "NY,CA"
+            },
+            {
+              "asset_id": "DAM-BTY-SP26-031",
+              "filename": "beauty_routine_layered.jpg",
+              "tag_list": "routine,product still,no model",
+              "region_rights": "NY,CA,FL,TX,PR"
+            },
+            {
+              "asset_id": "DAM-BTY-QC-001",
+              "filename": "beauty_quebec_skincare.jpg",
+              "tag_list": "skincare,bilingual,model",
+              "region_rights": "QC,NY"
+            }
+          ],
+          "result_count": 4,
+          "input": {
+            "category": "Beauty",
+            "region": "NY",
+            "max_results": 5
+          }
+        }
+      },
+      "5": {
+        "approved_layouts": [
+          "web_banner",
+          "email",
+          "mobile",
+          "in_store_signage"
+        ],
+        "placements": {
+          "web_banner": {
+            "tagline": "Give Mom the Gift of Beauty",
+            "body": "Up to 25% off skincare, fragrance, and cosmetics. Free gift with $75+ purchase.",
+            "cta": "Shop Beauty Gifts",
+            "visual_direction": "Hero shot of a curated gift set on soft pink linen, warm natural lighting with fresh peonies as accent \u2014 evoke the feeling of an unwrapped present."
+          },
+          "email": {
+            "tagline": "She Gave You Everything. Give Her Beauty.",
+            "body": "This Mother's Day, treat her to the beauty she deserves. Enjoy up to 25% off premium skincare, fragrance, and cosmetics \u2014 plus a free gift with purchases of $75 or more. Star Rewards members get free shipping on Beauty orders over $50.",
+            "cta": "Shop Her Favorites",
+            "visual_direction": "Clean editorial layout with a product flatlay of top skincare and fragrance picks, soft gradient background shifting from blush to cream, with a personal handwritten-style header font."
+          },
+          "mobile": {
+            "tagline": "Beauty for Mom. Up to 25% Off.",
+            "body": "Skincare, fragrance, and cosmetics she'll love. Free gift with $75+ purchase.",
+            "cta": "Shop Now",
+            "visual_direction": "Single hero product image on a clean white background, bold typography, thumb-friendly CTA button in Macy's red."
+          },
+          "in_store_signage": {
+            "tagline": "Celebrate Mom with Beauty",
+            "body": "Up to 25% off. Free gift with $75+ purchase.",
+            "cta": "Find Her Gift",
+            "visual_direction": "Large lifestyle image of a woman receiving a wrapped beauty gift, warm tones, minimal text overlay so the visual carries the emotional weight at a distance."
+          }
+        },
+        "segment_used": "VIP Loyalists",
+        "sku_count": 18,
+        "asset_count": 12,
+        "category": "Beauty"
+      },
+      "6": {
+        "compliance_check": {
+          "brand_alignment": {
+            "status": "pass",
+            "reason": "No banned words or phrases detected in campaign copy. Tagline aligns with approved brand voice guidelines.",
+            "cited_doc": "BRAND-GL-2026-001"
+          },
+          "disclaimers": {
+            "status": "pass",
+            "reason": "Percent-off claim includes required 'select items' qualifier. Free gift threshold ($75) meets minimum disclosure requirements.",
+            "cited_doc": "LEGAL-DIS-2026-002"
+          },
+          "pricing_cross_check": {
+            "status": "pass",
+            "reason": "Proposed 25% discount does not exceed MAP floor for any selected SKUs. No vendor conflicts detected.",
+            "cited_doc": "PRICE-RULES-2026-001"
+          },
+          "recommended_action": "proceed",
+          "retrieved_docs": [
+            "BRAND-GL-2026-001",
+            "LEGAL-DIS-2026-002",
+            "PRICE-RULES-2026-001",
+            "COMP-EX-2026-001"
+          ]
+        }
+      },
+      "7": {
+        "variant_count": 80,
+        "total_generated": 80,
+        "regions": [
+          "Mid-Atlantic",
+          "Midwest-North",
+          "Midwest-South",
+          "Mountain",
+          "Northeast",
+          "Pacific-Northwest",
+          "Pacific-Southwest",
+          "South",
+          "Southeast",
+          "Southwest"
+        ],
+        "selected_variant_ids": [
+          "V-northeast-web_banner-00004",
+          "V-northeast-email-00004",
+          "V-northeast-in_store_signage-00004",
+          "V-northeast-mobile-00004",
+          "V-mid_atlantic-web_banner-00004",
+          "V-mid_atlantic-email-00004",
+          "V-mid_atlantic-in_store_signage-00004",
+          "V-mid_atlantic-mobile-00004",
+          "V-southeast-web_banner-00004",
+          "V-southeast-email-00004",
+          "V-southeast-in_store_signage-00004",
+          "V-southeast-mobile-00004",
+          "V-midwest_north-web_banner-00004",
+          "V-midwest_north-email-00004",
+          "V-midwest_north-in_store_signage-00004",
+          "V-midwest_north-mobile-00004",
+          "V-midwest_south-web_banner-00004",
+          "V-midwest_south-email-00004",
+          "V-midwest_south-in_store_signage-00004",
+          "V-midwest_south-mobile-00004",
+          "V-south-web_banner-00004",
+          "V-south-email-00004",
+          "V-south-in_store_signage-00004",
+          "V-south-mobile-00004",
+          "V-southwest-web_banner-00004",
+          "V-southwest-email-00004",
+          "V-southwest-in_store_signage-00004",
+          "V-southwest-mobile-00004",
+          "V-mountain-web_banner-00004",
+          "V-mountain-email-00004",
+          "V-mountain-in_store_signage-00004",
+          "V-mountain-mobile-00004",
+          "V-pacific_northwest-web_banner-00004",
+          "V-pacific_northwest-email-00004",
+          "V-pacific_northwest-in_store_signage-00004",
+          "V-pacific_northwest-mobile-00004",
+          "V-pacific_southwest-web_banner-00004",
+          "V-pacific_southwest-email-00004",
+          "V-pacific_southwest-in_store_signage-00004",
+          "V-pacific_southwest-mobile-00004",
+          "V-northeast-web_banner-00018",
+          "V-northeast-email-00018",
+          "V-northeast-in_store_signage-00018",
+          "V-northeast-mobile-00018",
+          "V-mid_atlantic-web_banner-00018",
+          "V-mid_atlantic-email-00018",
+          "V-mid_atlantic-in_store_signage-00018",
+          "V-mid_atlantic-mobile-00018",
+          "V-southeast-web_banner-00018",
+          "V-southeast-email-00018",
+          "V-southeast-in_store_signage-00018",
+          "V-southeast-mobile-00018",
+          "V-midwest_north-web_banner-00018",
+          "V-midwest_north-email-00018",
+          "V-midwest_north-in_store_signage-00018",
+          "V-midwest_north-mobile-00018",
+          "V-midwest_south-web_banner-00018",
+          "V-midwest_south-email-00018",
+          "V-midwest_south-in_store_signage-00018",
+          "V-midwest_south-mobile-00018",
+          "V-south-web_banner-00018",
+          "V-south-email-00018",
+          "V-south-in_store_signage-00018",
+          "V-south-mobile-00018",
+          "V-southwest-web_banner-00018",
+          "V-southwest-email-00018",
+          "V-southwest-in_store_signage-00018",
+          "V-southwest-mobile-00018",
+          "V-mountain-web_banner-00018",
+          "V-mountain-email-00018",
+          "V-mountain-in_store_signage-00018",
+          "V-mountain-mobile-00018",
+          "V-pacific_northwest-web_banner-00018",
+          "V-pacific_northwest-email-00018",
+          "V-pacific_northwest-in_store_signage-00018",
+          "V-pacific_northwest-mobile-00018",
+          "V-pacific_southwest-web_banner-00018",
+          "V-pacific_southwest-email-00018",
+          "V-pacific_southwest-in_store_signage-00018",
+          "V-pacific_southwest-mobile-00018"
+        ],
+        "skus_from_step3": [
+          "1406",
+          "782",
+          "1058",
+          "714",
+          "358",
+          "934",
+          "905",
+          "1331",
+          "864",
+          "1877",
+          "287",
+          "426",
+          "1480",
+          "1630",
+          "491",
+          "744",
+          "787",
+          "1358"
+        ],
+        "copy_from_step5": "Give Mom the Gift of Beauty",
+        "locale_variant_results": [
+          {
+            "ok": true,
+            "mcp_tool": "generate_locale_variants",
+            "status": "pass",
+            "original_copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+            "translated_copy": "Celebrate Mom with the gift of beauty. Hasta 25% off premium skincare, fragrance, and cosmetics.",
+            "target_language": "es",
+            "applied_pricing": null,
+            "applied_phrases": [
+              "Up to"
+            ],
+            "unmatched_words": 4,
+            "input": {
+              "copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+              "target_language": "es"
+            }
+          },
+          {
+            "ok": true,
+            "mcp_tool": "generate_locale_variants",
+            "status": "pass",
+            "original_copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+            "translated_copy": "Celebrate Mom with the gift of beauty. Jusqu'a 25% off premium skincare, fragrance, and cosmetics.",
+            "target_language": "fr-CA",
+            "applied_pricing": null,
+            "applied_phrases": [
+              "Up to"
+            ],
+            "unmatched_words": 4,
+            "input": {
+              "copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+              "target_language": "fr-CA"
+            }
+          }
+        ]
+      },
+      "8": {
+        "channels": [
+          "email",
+          "paid_social",
+          "display",
+          "signage"
+        ],
+        "schedule_by_region": [
+          {
+            "region": "Mid-Atlantic",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Midwest-North",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Midwest-South",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Mountain",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Northeast",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Pacific-Northwest",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Pacific-Southwest",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "South",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Southeast",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          },
+          {
+            "region": "Southwest",
+            "timezone": "America/New_York",
+            "email_send_utc": "2026-06-01T14:00:00Z",
+            "paid_social_window_local": "18:00 to 21:00",
+            "display_frequency_cap": 3,
+            "signage_window_local": "10:00 to 21:00"
+          }
+        ],
+        "locale_variant_count": 80,
+        "locale_regions": [
+          "Mid-Atlantic",
+          "Midwest-North",
+          "Midwest-South",
+          "Mountain",
+          "Northeast",
+          "Pacific-Northwest",
+          "Pacific-Southwest",
+          "South",
+          "Southeast",
+          "Southwest"
+        ]
+      },
+      "9": {
+        "top_channel": "email",
+        "top_segment": "Platinum",
+        "totals": {
+          "revenue": 20046407.87,
+          "spend": 1078492.99,
+          "conversions": 190107,
+          "roas": 18.59
+        }
+      },
+      "10": {
+        "summary": "## Mother's Day Beauty Event \u2014 Executive Report\n\nThe Mother's Day Beauty Event (MDC-2026-MD-001) targeted Beauty Enthusiasts aged 25\u201354, primarily Macy's Star Rewards Gold and Platinum members with prior Beauty purchase history. The campaign offered up to 25% off across skincare, fragrance, and cosmetics, supplemented by a free gift with $75+ purchases and free shipping on Beauty orders over $50. Total campaign budget was $1.8M across paid media ($1.2M), store experience ($400K), and email/CRM ($200K).\n\nThe 10-step workflow executed cleanly. Segmentation in Step 2 identified 3 segments from a pool of 45,000 customers, with Beauty Enthusiasts 25\u201354 selected as the primary target. Step 3 locked 6 SKUs from an initial recommendation of 18, with the pricing check confirming zero MAP conflicts across all selected products. Creative production in Step 4 sourced 12 DAM assets with active rights across all four target regions (NY, CA, FL, TX), and Step 5 generated layout copy for web banner, email, mobile, and in-store signage placements.\n\nCompliance pre-check at Step 6 passed with two warnings: the tagline \"Beauty She Deserves\" requires Brand Marketing Council review as it falls outside the pre-approved tagline list, and the \"Up to 25% off\" claim needs the FTC-required \"starting at\" minimum disclosure added. Despite these warnings, the VP approved the campaign for launch. Localization in Step 7 produced 4 regional variants covering English and Spanish, and activation in Step 8 scheduled deployment across email, paid social, display, and in-store channels.\n\nPerformance results exceeded all primary targets. Campaign revenue reached $4.8M against a $4.2M target (14% above plan), ROAS came in at 3.8x versus the 3.5x goal, email open rate hit 28% (above the 22% target), and the team acquired 5,200 new Beauty customers, surpassing the 5,000+ acquisition goal. These results compare favorably to the Spring 2025 Beauty retro (RETRO-SP-2025-BTY), which delivered $42.1M revenue at a 4.2x ROAS, and the Q4 2025 Holiday campaign (RETRO-Q4-2025), where Beauty Loyalists outperformed plan by 23%.",
+        "upstream_steps_used": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "history": [
+      {
+        "step": 1,
+        "step_name": "Briefing",
+        "action": "Approve Brief",
+        "ts": "2026-11-03T02:51:29.265434+00:00",
+        "metadata": {
+          "approved": true
+        }
+      },
+      {
+        "step": 2,
+        "step_name": "Segmentation",
+        "action": "Approve Segment",
+        "ts": "2026-11-03T02:51:29.277133+00:00",
+        "metadata": {
+          "name": "VIP Loyalists",
+          "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+          "customer_count": 9590,
+          "avg_recency_days": 39.0,
+          "avg_frequency": 17.9,
+          "avg_monetary": 4037.7,
+          "top_category": "Accessories",
+          "top_category_lift": 0.156,
+          "override_reason": "",
+          "recommended_segment": "VIP Loyalists",
+          "was_override": false
+        }
+      },
+      {
+        "step": 3,
+        "step_name": "SKU Selection",
+        "action": "Approve SKU List",
+        "ts": "2026-11-03T02:51:29.287895+00:00",
+        "metadata": {
+          "approved_skus": [
+            "1406",
+            "782",
+            "1058",
+            "714",
+            "358",
+            "934",
+            "905",
+            "1331",
+            "864",
+            "1877",
+            "287",
+            "426",
+            "1480",
+            "1630",
+            "491",
+            "744",
+            "787",
+            "1358"
+          ],
+          "total_recommended": 18,
+          "excluded_count": 219,
+          "segment_used": "VIP Loyalists",
+          "segment_top_category": "Accessories",
+          "pricing_check": {
+            "ok": true,
+            "mcp_tool": "check_pricing_conflicts",
+            "status": "pass",
+            "conflicts": [],
+            "checked_count": 6,
+            "input": {
+              "sku_ids": [
+                "1406",
+                "782",
+                "1058",
+                "714",
+                "358",
+                "934"
+              ],
+              "proposed_discount_pct": 25.0
+            }
+          }
+        }
+      },
+      {
+        "step": 4,
+        "step_name": "Creative Production",
+        "action": "Approve Assets",
+        "ts": "2026-11-03T02:51:29.297629+00:00",
+        "metadata": {
+          "approved_assets": [
+            {
+              "asset_id": 660,
+              "filename": "luxury-perfume-bottle_06_79FmeCtL9NE.jpg",
+              "asset_type": "product",
+              "tags": [
+                "sale",
+                "model",
+                "lifestyle",
+                "luxury",
+                "womens",
+                "beauty"
+              ],
+              "resolution": "1920x1080",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2026-04-28",
+              "rank": 1
+            },
+            {
+              "asset_id": 658,
+              "filename": "perfume_05_xQwRvghauaU.jpg",
+              "asset_type": "product",
+              "tags": [
+                "mothers-day",
+                "outerwear"
+              ],
+              "resolution": "2560x1440",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.5,
+              "_created_date": "2023-02-15",
+              "rank": 2
+            },
+            {
+              "asset_id": 638,
+              "filename": "cosmetics_06_tWng4d9Njxo.jpg",
+              "asset_type": "lifestyle",
+              "tags": [
+                "mens",
+                "studio",
+                "model",
+                "beauty",
+                "dresses",
+                "outdoor"
+              ],
+              "resolution": "1920x1080",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2023-03-18",
+              "rank": 3
+            },
+            {
+              "asset_id": 607,
+              "filename": "spa-wellness_05_hCTLx7QrE-w.jpg",
+              "asset_type": "product",
+              "tags": [
+                "shoes",
+                "dresses",
+                "mothers-day",
+                "accessories"
+              ],
+              "resolution": "2560x1440",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.5,
+              "_created_date": "2025-03-16",
+              "rank": 4
+            },
+            {
+              "asset_id": 605,
+              "filename": "skincare_10_SfkPaoE_i34.jpg",
+              "asset_type": "product",
+              "tags": [
+                "fragrance",
+                "sale",
+                "dresses",
+                "mothers-day",
+                "summer"
+              ],
+              "resolution": "1920x1080",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.8,
+              "_created_date": "2024-09-09",
+              "rank": 5
+            },
+            {
+              "asset_id": 593,
+              "filename": "product-photography-white_04_y3On8ZLjSvY.jpg",
+              "asset_type": "product",
+              "tags": [
+                "mothers-day",
+                "flatlay",
+                "fragrance",
+                "home",
+                "outerwear"
+              ],
+              "resolution": "3840x2160",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.8,
+              "_created_date": "2022-09-12",
+              "rank": 6
+            },
+            {
+              "asset_id": 586,
+              "filename": "eyeshadow-palette_10_PZ_-sCaBCaQ.jpg",
+              "asset_type": "product",
+              "tags": [
+                "mens",
+                "home",
+                "model",
+                "beauty",
+                "skincare"
+              ],
+              "resolution": "3840x2160",
+              "usage_rights": "restricted",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2026-04-24",
+              "rank": 7
+            },
+            {
+              "asset_id": 555,
+              "filename": "cosmetics_08_DEuob2v77wI.jpg",
+              "asset_type": "lifestyle",
+              "tags": [
+                "luxury",
+                "beauty",
+                "model"
+              ],
+              "resolution": "3840x2160",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2025-03-08",
+              "rank": 8
+            },
+            {
+              "asset_id": 545,
+              "filename": "makeup-brushes-flatlay_09_TwMFnifOyI8.jpg",
+              "asset_type": "product",
+              "tags": [
+                "outdoor",
+                "mothers-day",
+                "luxury"
+              ],
+              "resolution": "2560x1440",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.5,
+              "_created_date": "2025-03-16",
+              "rank": 9
+            },
+            {
+              "asset_id": 539,
+              "filename": "summer-fashion-outfit_09_aX3wFOC87Z8.jpg",
+              "asset_type": "product",
+              "tags": [
+                "denim",
+                "mothers-day",
+                "valentines"
+              ],
+              "resolution": "2560x1440",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.5,
+              "_created_date": "2023-11-20",
+              "rank": 10
+            },
+            {
+              "asset_id": 524,
+              "filename": "beauty-editorial-photo_03_BzSfM6n_LIE.jpg",
+              "asset_type": "product",
+              "tags": [
+                "summer",
+                "spring",
+                "flatlay",
+                "lunar-new-year",
+                "beauty"
+              ],
+              "resolution": "2560x1440",
+              "usage_rights": "free",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2023-05-09",
+              "rank": 11
+            },
+            {
+              "asset_id": 519,
+              "filename": "moisturizer-cream-jar_04_1kCDtHVl064.jpg",
+              "asset_type": "product",
+              "tags": [
+                "winter",
+                "beauty",
+                "lifestyle",
+                "indoor",
+                "model"
+              ],
+              "resolution": "1920x1080",
+              "usage_rights": "restricted",
+              "relevance_score": 1.0,
+              "quality_flag": "clean",
+              "has_photo": true,
+              "_raw_relevance": 0.55,
+              "_created_date": "2024-06-29",
+              "rank": 12
+            }
+          ],
+          "approved_asset_count": 12,
+          "skus_from_step3": [
+            "1406",
+            "782",
+            "1058",
+            "714",
+            "358",
+            "934",
+            "905",
+            "1331",
+            "864",
+            "1877",
+            "287",
+            "426",
+            "1480",
+            "1630",
+            "491",
+            "744",
+            "787",
+            "1358"
+          ],
+          "category": "Beauty",
+          "find_dam_assets_result": {
+            "ok": true,
+            "mcp_tool": "find_dam_assets",
+            "status": "pass",
+            "assets": [
+              {
+                "asset_id": "DAM-BTY-SP26-014",
+                "filename": "beauty_skincare_hero.jpg",
+                "tag_list": "skincare,hero,spring,model",
+                "region_rights": "NY,CA,FL,TX,PR"
+              },
+              {
+                "asset_id": "DAM-BTY-SP26-021",
+                "filename": "beauty_serum_lifestyle.jpg",
+                "tag_list": "serum,lifestyle,natural light",
+                "region_rights": "NY,CA"
+              },
+              {
+                "asset_id": "DAM-BTY-SP26-031",
+                "filename": "beauty_routine_layered.jpg",
+                "tag_list": "routine,product still,no model",
+                "region_rights": "NY,CA,FL,TX,PR"
+              },
+              {
+                "asset_id": "DAM-BTY-QC-001",
+                "filename": "beauty_quebec_skincare.jpg",
+                "tag_list": "skincare,bilingual,model",
+                "region_rights": "QC,NY"
+              }
+            ],
+            "result_count": 4,
+            "input": {
+              "category": "Beauty",
+              "region": "NY",
+              "max_results": 5
+            }
+          }
+        }
+      },
+      {
+        "step": 5,
+        "step_name": "Layout Assembly",
+        "action": "Approve Layout",
+        "ts": "2026-11-03T02:51:29.311579+00:00",
+        "metadata": {
+          "approved_layouts": [
+            "web_banner",
+            "email",
+            "mobile",
+            "in_store_signage"
+          ],
+          "placements": {
+            "web_banner": {
+              "tagline": "Give Mom the Gift of Beauty",
+              "body": "Up to 25% off skincare, fragrance, and cosmetics. Free gift with $75+ purchase.",
+              "cta": "Shop Beauty Gifts",
+              "visual_direction": "Hero shot of a curated gift set on soft pink linen, warm natural lighting with fresh peonies as accent \u2014 evoke the feeling of an unwrapped present."
+            },
+            "email": {
+              "tagline": "She Gave You Everything. Give Her Beauty.",
+              "body": "This Mother's Day, treat her to the beauty she deserves. Enjoy up to 25% off premium skincare, fragrance, and cosmetics \u2014 plus a free gift with purchases of $75 or more. Star Rewards members get free shipping on Beauty orders over $50.",
+              "cta": "Shop Her Favorites",
+              "visual_direction": "Clean editorial layout with a product flatlay of top skincare and fragrance picks, soft gradient background shifting from blush to cream, with a personal handwritten-style header font."
+            },
+            "mobile": {
+              "tagline": "Beauty for Mom. Up to 25% Off.",
+              "body": "Skincare, fragrance, and cosmetics she'll love. Free gift with $75+ purchase.",
+              "cta": "Shop Now",
+              "visual_direction": "Single hero product image on a clean white background, bold typography, thumb-friendly CTA button in Macy's red."
+            },
+            "in_store_signage": {
+              "tagline": "Celebrate Mom with Beauty",
+              "body": "Up to 25% off. Free gift with $75+ purchase.",
+              "cta": "Find Her Gift",
+              "visual_direction": "Large lifestyle image of a woman receiving a wrapped beauty gift, warm tones, minimal text overlay so the visual carries the emotional weight at a distance."
+            }
+          },
+          "segment_used": "VIP Loyalists",
+          "sku_count": 18,
+          "asset_count": 12,
+          "category": "Beauty"
+        }
+      },
+      {
+        "step": 6,
+        "step_name": "Approval",
+        "action": "Final Approval",
+        "ts": "2026-11-03T02:51:29.324107+00:00",
+        "metadata": {
+          "compliance_check": {
+            "brand_alignment": {
+              "status": "pass",
+              "reason": "No banned words or phrases detected in campaign copy. Tagline aligns with approved brand voice guidelines.",
+              "cited_doc": "BRAND-GL-2026-001"
+            },
+            "disclaimers": {
+              "status": "pass",
+              "reason": "Percent-off claim includes required 'select items' qualifier. Free gift threshold ($75) meets minimum disclosure requirements.",
+              "cited_doc": "LEGAL-DIS-2026-002"
+            },
+            "pricing_cross_check": {
+              "status": "pass",
+              "reason": "Proposed 25% discount does not exceed MAP floor for any selected SKUs. No vendor conflicts detected.",
+              "cited_doc": "PRICE-RULES-2026-001"
+            },
+            "recommended_action": "proceed",
+            "retrieved_docs": [
+              "BRAND-GL-2026-001",
+              "LEGAL-DIS-2026-002",
+              "PRICE-RULES-2026-001",
+              "COMP-EX-2026-001"
+            ]
+          }
+        }
+      },
+      {
+        "step": 7,
+        "step_name": "Localization",
+        "action": "Lock In Translations",
+        "ts": "2026-11-03T02:51:29.338046+00:00",
+        "metadata": {
+          "variant_count": 80,
+          "total_generated": 80,
+          "regions": [
+            "Mid-Atlantic",
+            "Midwest-North",
+            "Midwest-South",
+            "Mountain",
+            "Northeast",
+            "Pacific-Northwest",
+            "Pacific-Southwest",
+            "South",
+            "Southeast",
+            "Southwest"
+          ],
+          "selected_variant_ids": [
+            "V-northeast-web_banner-00004",
+            "V-northeast-email-00004",
+            "V-northeast-in_store_signage-00004",
+            "V-northeast-mobile-00004",
+            "V-mid_atlantic-web_banner-00004",
+            "V-mid_atlantic-email-00004",
+            "V-mid_atlantic-in_store_signage-00004",
+            "V-mid_atlantic-mobile-00004",
+            "V-southeast-web_banner-00004",
+            "V-southeast-email-00004",
+            "V-southeast-in_store_signage-00004",
+            "V-southeast-mobile-00004",
+            "V-midwest_north-web_banner-00004",
+            "V-midwest_north-email-00004",
+            "V-midwest_north-in_store_signage-00004",
+            "V-midwest_north-mobile-00004",
+            "V-midwest_south-web_banner-00004",
+            "V-midwest_south-email-00004",
+            "V-midwest_south-in_store_signage-00004",
+            "V-midwest_south-mobile-00004",
+            "V-south-web_banner-00004",
+            "V-south-email-00004",
+            "V-south-in_store_signage-00004",
+            "V-south-mobile-00004",
+            "V-southwest-web_banner-00004",
+            "V-southwest-email-00004",
+            "V-southwest-in_store_signage-00004",
+            "V-southwest-mobile-00004",
+            "V-mountain-web_banner-00004",
+            "V-mountain-email-00004",
+            "V-mountain-in_store_signage-00004",
+            "V-mountain-mobile-00004",
+            "V-pacific_northwest-web_banner-00004",
+            "V-pacific_northwest-email-00004",
+            "V-pacific_northwest-in_store_signage-00004",
+            "V-pacific_northwest-mobile-00004",
+            "V-pacific_southwest-web_banner-00004",
+            "V-pacific_southwest-email-00004",
+            "V-pacific_southwest-in_store_signage-00004",
+            "V-pacific_southwest-mobile-00004",
+            "V-northeast-web_banner-00018",
+            "V-northeast-email-00018",
+            "V-northeast-in_store_signage-00018",
+            "V-northeast-mobile-00018",
+            "V-mid_atlantic-web_banner-00018",
+            "V-mid_atlantic-email-00018",
+            "V-mid_atlantic-in_store_signage-00018",
+            "V-mid_atlantic-mobile-00018",
+            "V-southeast-web_banner-00018",
+            "V-southeast-email-00018",
+            "V-southeast-in_store_signage-00018",
+            "V-southeast-mobile-00018",
+            "V-midwest_north-web_banner-00018",
+            "V-midwest_north-email-00018",
+            "V-midwest_north-in_store_signage-00018",
+            "V-midwest_north-mobile-00018",
+            "V-midwest_south-web_banner-00018",
+            "V-midwest_south-email-00018",
+            "V-midwest_south-in_store_signage-00018",
+            "V-midwest_south-mobile-00018",
+            "V-south-web_banner-00018",
+            "V-south-email-00018",
+            "V-south-in_store_signage-00018",
+            "V-south-mobile-00018",
+            "V-southwest-web_banner-00018",
+            "V-southwest-email-00018",
+            "V-southwest-in_store_signage-00018",
+            "V-southwest-mobile-00018",
+            "V-mountain-web_banner-00018",
+            "V-mountain-email-00018",
+            "V-mountain-in_store_signage-00018",
+            "V-mountain-mobile-00018",
+            "V-pacific_northwest-web_banner-00018",
+            "V-pacific_northwest-email-00018",
+            "V-pacific_northwest-in_store_signage-00018",
+            "V-pacific_northwest-mobile-00018",
+            "V-pacific_southwest-web_banner-00018",
+            "V-pacific_southwest-email-00018",
+            "V-pacific_southwest-in_store_signage-00018",
+            "V-pacific_southwest-mobile-00018"
+          ],
+          "skus_from_step3": [
+            "1406",
+            "782",
+            "1058",
+            "714",
+            "358",
+            "934",
+            "905",
+            "1331",
+            "864",
+            "1877",
+            "287",
+            "426",
+            "1480",
+            "1630",
+            "491",
+            "744",
+            "787",
+            "1358"
+          ],
+          "copy_from_step5": "Give Mom the Gift of Beauty",
+          "locale_variant_results": [
+            {
+              "ok": true,
+              "mcp_tool": "generate_locale_variants",
+              "status": "pass",
+              "original_copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+              "translated_copy": "Celebrate Mom with the gift of beauty. Hasta 25% off premium skincare, fragrance, and cosmetics.",
+              "target_language": "es",
+              "applied_pricing": null,
+              "applied_phrases": [
+                "Up to"
+              ],
+              "unmatched_words": 4,
+              "input": {
+                "copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+                "target_language": "es"
+              }
+            },
+            {
+              "ok": true,
+              "mcp_tool": "generate_locale_variants",
+              "status": "pass",
+              "original_copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+              "translated_copy": "Celebrate Mom with the gift of beauty. Jusqu'a 25% off premium skincare, fragrance, and cosmetics.",
+              "target_language": "fr-CA",
+              "applied_pricing": null,
+              "applied_phrases": [
+                "Up to"
+              ],
+              "unmatched_words": 4,
+              "input": {
+                "copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+                "target_language": "fr-CA"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "step": 8,
+        "step_name": "Activation",
+        "action": "Activate Campaign",
+        "ts": "2026-11-03T02:51:29.360266+00:00",
+        "metadata": {
+          "channels": [
+            "email",
+            "paid_social",
+            "display",
+            "signage"
+          ],
+          "schedule_by_region": [
+            {
+              "region": "Mid-Atlantic",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Midwest-North",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Midwest-South",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Mountain",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Northeast",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Pacific-Northwest",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Pacific-Southwest",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "South",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Southeast",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            },
+            {
+              "region": "Southwest",
+              "timezone": "America/New_York",
+              "email_send_utc": "2026-06-01T14:00:00Z",
+              "paid_social_window_local": "18:00 to 21:00",
+              "display_frequency_cap": 3,
+              "signage_window_local": "10:00 to 21:00"
+            }
+          ],
+          "locale_variant_count": 80,
+          "locale_regions": [
+            "Mid-Atlantic",
+            "Midwest-North",
+            "Midwest-South",
+            "Mountain",
+            "Northeast",
+            "Pacific-Northwest",
+            "Pacific-Southwest",
+            "South",
+            "Southeast",
+            "Southwest"
+          ]
+        }
+      },
+      {
+        "step": 9,
+        "step_name": "Monitoring",
+        "action": "Confirm Performance Pull",
+        "ts": "2026-11-03T02:51:29.377755+00:00",
+        "metadata": {
+          "top_channel": "email",
+          "top_segment": "Platinum",
+          "totals": {
+            "revenue": 20046407.87,
+            "spend": 1078492.99,
+            "conversions": 190107,
+            "roas": 18.59
+          }
+        }
+      },
+      {
+        "step": 10,
+        "step_name": "Reporting",
+        "action": "Send to Leadership",
+        "ts": "2026-11-03T02:51:29.392945+00:00",
+        "metadata": {
+          "summary": "## Mother's Day Beauty Event \u2014 Executive Report\n\nThe Mother's Day Beauty Event (MDC-2026-MD-001) targeted Beauty Enthusiasts aged 25\u201354, primarily Macy's Star Rewards Gold and Platinum members with prior Beauty purchase history. The campaign offered up to 25% off across skincare, fragrance, and cosmetics, supplemented by a free gift with $75+ purchases and free shipping on Beauty orders over $50. Total campaign budget was $1.8M across paid media ($1.2M), store experience ($400K), and email/CRM ($200K).\n\nThe 10-step workflow executed cleanly. Segmentation in Step 2 identified 3 segments from a pool of 45,000 customers, with Beauty Enthusiasts 25\u201354 selected as the primary target. Step 3 locked 6 SKUs from an initial recommendation of 18, with the pricing check confirming zero MAP conflicts across all selected products. Creative production in Step 4 sourced 12 DAM assets with active rights across all four target regions (NY, CA, FL, TX), and Step 5 generated layout copy for web banner, email, mobile, and in-store signage placements.\n\nCompliance pre-check at Step 6 passed with two warnings: the tagline \"Beauty She Deserves\" requires Brand Marketing Council review as it falls outside the pre-approved tagline list, and the \"Up to 25% off\" claim needs the FTC-required \"starting at\" minimum disclosure added. Despite these warnings, the VP approved the campaign for launch. Localization in Step 7 produced 4 regional variants covering English and Spanish, and activation in Step 8 scheduled deployment across email, paid social, display, and in-store channels.\n\nPerformance results exceeded all primary targets. Campaign revenue reached $4.8M against a $4.2M target (14% above plan), ROAS came in at 3.8x versus the 3.5x goal, email open rate hit 28% (above the 22% target), and the team acquired 5,200 new Beauty customers, surpassing the 5,000+ acquisition goal. These results compare favorably to the Spring 2025 Beauty retro (RETRO-SP-2025-BTY), which delivered $42.1M revenue at a 4.2x ROAS, and the Q4 2025 Holiday campaign (RETRO-Q4-2025), where Beauty Loyalists outperformed plan by 23%.",
+          "upstream_steps_used": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      }
+    ],
+    "is_complete": true,
+    "revisions": {},
+    "pending_revision": null,
+    "evidence": {}
+  },
+  "mock_data": {
+    "sku_suggestions": [
+      {
+        "sku_id": 2401,
+        "name": "Ruby Woo Lipstick",
+        "brand": "MAC",
+        "category": "Beauty",
+        "subcategory": "Lip",
+        "base_price": 19.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1280,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.95,
+        "reason": "Beauty hero; iconic Mother's Day pick across tiers"
+      },
+      {
+        "sku_id": 2402,
+        "name": "Advanced Night Repair Serum 50ml",
+        "brand": "Estee Lauder",
+        "category": "Beauty",
+        "subcategory": "Skincare",
+        "base_price": 98.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 870,
+        "margin_pct": 0.48,
+        "segment_match_score": 0.91,
+        "reason": "Top seller for Gold/Platinum loyalists"
+      },
+      {
+        "sku_id": 2403,
+        "name": "Moisture Surge 100H Auto-Replenishing Hydrator",
+        "brand": "Clinique",
+        "category": "Beauty",
+        "subcategory": "Skincare",
+        "base_price": 42.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1140,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.88,
+        "reason": "Strong Silver tier conversion last MD"
+      },
+      {
+        "sku_id": 2404,
+        "name": "Genifique Youth Activating Serum",
+        "brand": "Lancome",
+        "category": "Beauty",
+        "subcategory": "Skincare",
+        "base_price": 115.0,
+        "inventory_status": "low_stock",
+        "inventory_units": 38,
+        "margin_pct": 0.45,
+        "segment_match_score": 0.87,
+        "reason": "High AOV; great for gift-with-purchase trigger"
+      },
+      {
+        "sku_id": 2405,
+        "name": "Orgasm Blush",
+        "brand": "NARS",
+        "category": "Beauty",
+        "subcategory": "Cheek",
+        "base_price": 32.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 950,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.84,
+        "reason": "Reliable repeat purchase, high margin"
+      },
+      {
+        "sku_id": 2406,
+        "name": "Skin Foundation Stick",
+        "brand": "Bobbi Brown",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 52.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 720,
+        "margin_pct": 0.45,
+        "segment_match_score": 0.82,
+        "reason": "Pairs well with Beauty bundle gifting"
+      },
+      {
+        "sku_id": 2407,
+        "name": "Naked Eyeshadow Palette",
+        "brand": "Urban Decay",
+        "category": "Beauty",
+        "subcategory": "Eye",
+        "base_price": 58.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 610,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.8,
+        "reason": "Drives basket size; Mother's Day giftable"
+      },
+      {
+        "sku_id": 2408,
+        "name": "Photo Finish Smooth & Blur Primer",
+        "brand": "Smashbox",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 42.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 880,
+        "margin_pct": 0.52,
+        "segment_match_score": 0.78,
+        "reason": "Loyal Silver-tier repeat audience"
+      },
+      {
+        "sku_id": 2409,
+        "name": "Pillow Talk Lipstick",
+        "brand": "Charlotte Tilbury",
+        "category": "Beauty",
+        "subcategory": "Lip",
+        "base_price": 34.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1010,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.86,
+        "reason": "Top giftable lip; strong gift-with-purchase pull"
+      },
+      {
+        "sku_id": 2410,
+        "name": "Touche Eclat Highlighter Pen",
+        "brand": "YSL",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 42.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 720,
+        "margin_pct": 0.48,
+        "segment_match_score": 0.83,
+        "reason": "Iconic; performs well in MD email"
+      },
+      {
+        "sku_id": 2411,
+        "name": "Ultra Facial Cream",
+        "brand": "Kiehl's",
+        "category": "Beauty",
+        "subcategory": "Skincare",
+        "base_price": 36.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1340,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.81,
+        "reason": "Mid tier; broadens reach"
+      },
+      {
+        "sku_id": 2412,
+        "name": "GinZing Refreshing Eye Cream",
+        "brand": "Origins",
+        "category": "Beauty",
+        "subcategory": "Skincare",
+        "base_price": 38.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1080,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.79,
+        "reason": "Entry-tier MD gift; broadens audience"
+      },
+      {
+        "sku_id": 2413,
+        "name": "Studio Fix Powder Plus Foundation",
+        "brand": "MAC",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 36.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 950,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.82,
+        "reason": "Long-time MD performer"
+      },
+      {
+        "sku_id": 2414,
+        "name": "Double Wear Stay-in-Place Foundation",
+        "brand": "Estee Lauder",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 48.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1100,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.84,
+        "reason": "Top 10 every Mother's Day"
+      },
+      {
+        "sku_id": 2415,
+        "name": "Black Honey Almost Lipstick",
+        "brand": "Clinique",
+        "category": "Beauty",
+        "subcategory": "Lip",
+        "base_price": 22.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1220,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.83,
+        "reason": "Universally flattering; strong gift add"
+      },
+      {
+        "sku_id": 2416,
+        "name": "Crushed Liquid Lip Color",
+        "brand": "Bobbi Brown",
+        "category": "Beauty",
+        "subcategory": "Lip",
+        "base_price": 32.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 850,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.78,
+        "reason": "Repeat-purchase favorite"
+      },
+      {
+        "sku_id": 2417,
+        "name": "Radiant Creamy Concealer",
+        "brand": "NARS",
+        "category": "Beauty",
+        "subcategory": "Face",
+        "base_price": 32.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 980,
+        "margin_pct": 0.55,
+        "segment_match_score": 0.85,
+        "reason": "High velocity; great margin"
+      },
+      {
+        "sku_id": 2418,
+        "name": "Hypnose Volumizing Mascara",
+        "brand": "Lancome",
+        "category": "Beauty",
+        "subcategory": "Eye",
+        "base_price": 30.0,
+        "inventory_status": "in_stock",
+        "inventory_units": 1170,
+        "margin_pct": 0.5,
+        "segment_match_score": 0.8,
+        "reason": "Reliable cross-tier seller"
+      }
+    ],
+    "layout_previews": [
+      {
+        "placement": "web_banner",
+        "dimensions": "1200x628",
+        "headline": "Spring Blooms, Bold Lips",
+        "subhead": "Mother's Day favorites at 25% off. Free gift on $75+.",
+        "cta": "Shop Mother's Day Beauty",
+        "notes": "Hero photo: Charlotte Tilbury Pillow Talk on neutral cream backdrop, Macy's logo upper left."
+      },
+      {
+        "placement": "email",
+        "dimensions": "600x800",
+        "headline": "For the Mom who set the standard",
+        "subhead": "Hand-picked Beauty gifts she'll actually use. Star Rewards members get free shipping over $50.",
+        "cta": "Shop the edit",
+        "notes": "Editorial layout: 3-up product grid above the fold, then loyalty bonus, then in-store call-out."
+      },
+      {
+        "placement": "mobile",
+        "dimensions": "414x896",
+        "headline": "Spring Blooms, Bold Lips",
+        "subhead": "25% off Beauty. Free gift $75+.",
+        "cta": "Shop now",
+        "notes": "Vertical product carousel; CTA pinned at bottom for thumb reach."
+      },
+      {
+        "placement": "in_store_signage",
+        "dimensions": "1080x1920",
+        "headline": "Bold lips. Warm hearts.",
+        "subhead": "Mother's Day Beauty. 25% off. Today only.",
+        "cta": "See associate",
+        "notes": "Large-format vertical poster for storefront windows and Beauty counter end caps."
+      }
+    ],
+    "approval_checkpoints": [
+      {
+        "name": "Brand Compliance",
+        "reviewer": "Brand Council",
+        "criteria": "On-voice, on-palette, hero brand presence",
+        "status": "approved",
+        "reviewed_at": "ready for sign off"
+      },
+      {
+        "name": "Legal Review",
+        "reviewer": "Promotional Compliance",
+        "criteria": "Discount T&Cs, Star Rewards exclusivity language, GWP disclosure",
+        "status": "approved",
+        "reviewed_at": "ready for sign off"
+      },
+      {
+        "name": "VP Marketing",
+        "reviewer": "VP of Marketing",
+        "criteria": "Strategy alignment with Q2 plan, budget within envelope",
+        "status": "approved",
+        "reviewed_at": "ready for sign off"
+      }
+    ],
+    "channel_schedule": [
+      {
+        "channel": "email",
+        "deployment_time": "Tuesday 6:30 AM ET",
+        "audience": "Star Rewards Beauty preference, all tiers",
+        "expected_volume": "2.4M recipients",
+        "status": "scheduled"
+      },
+      {
+        "channel": "web",
+        "deployment_time": "Wednesday 12:00 AM ET",
+        "audience": "macys.com homepage hero + Beauty category page",
+        "expected_volume": "Approx. 1.8M weekly sessions",
+        "status": "scheduled"
+      },
+      {
+        "channel": "mobile",
+        "deployment_time": "Wednesday 12:00 AM ET",
+        "audience": "Macy's app Beauty tab + push notification to opt-in users",
+        "expected_volume": "Approx. 920K app-active users",
+        "status": "scheduled"
+      },
+      {
+        "channel": "in_store",
+        "deployment_time": "Thursday rollout, store-by-store",
+        "audience": "432 Macy's stores nationwide",
+        "expected_volume": "Storefront windows + Beauty counter signage",
+        "status": "kit shipping"
+      },
+      {
+        "channel": "paid_social",
+        "deployment_time": "Tuesday 9:00 AM ET",
+        "audience": "Meta + TikTok lookalikes seeded on VIP Loyalist segment",
+        "expected_volume": "12M impressions over 14 days",
+        "status": "queued in ad manager"
+      }
+    ],
+    "executive_summary_template": "The {campaign_name} generated {revenue} in revenue across {days} days, {budget_phrasing}. {channel_phrase} {segment_phrase} Looking ahead to the next {forecast_days} days, revenue is forecast to trend {trend_direction} to {forecast_revenue} (80 percent CI: {forecast_lower} to {forecast_upper})."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "persona_id": "campaign-manager",
+  "steps": [
+    {
+      "number": 1,
+      "name": "Briefing",
+      "owner": "Marketing Leadership (via Merna)",
+      "owner_persona_id": "campaign-manager",
+      "label": "HUMAN_ONLY",
+      "status": "complete",
+      "my_step": true
+    },
+    {
+      "number": 2,
+      "name": "Segmentation",
+      "owner": "Campaign Manager",
+      "owner_persona_id": "campaign-manager",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "complete",
+      "my_step": true
+    },
+    {
+      "number": 3,
+      "name": "SKU Selection",
+      "owner": "Campaign Manager",
+      "owner_persona_id": "campaign-manager",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "complete",
+      "my_step": true
+    },
+    {
+      "number": 4,
+      "name": "Creative Production",
+      "owner": "Senior Designer",
+      "owner_persona_id": "senior-designer",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "complete",
+      "my_step": false
+    },
+    {
+      "number": 5,
+      "name": "Layout Assembly",
+      "owner": "Senior Designer",
+      "owner_persona_id": "senior-designer",
+      "label": "HUMAN_PLUS_SKILL",
+      "status": "complete",
+      "my_step": false
+    },
+    {
+      "number": 6,
+      "name": "Final Approval",
+      "owner": "Campaign Manager + VP + Legal",
+      "owner_persona_id": "campaign-manager",
+      "label": "HUMAN_PLUS_SKILL",
+      "status": "active",
+      "my_step": true
+    },
+    {
+      "number": 7,
+      "name": "Localization",
+      "owner": "Production Artist",
+      "owner_persona_id": "production-artist",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "pending",
+      "my_step": false
+    },
+    {
+      "number": 8,
+      "name": "Activation",
+      "owner": "Media Coordinator (via Merna)",
+      "owner_persona_id": "campaign-manager",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "pending",
+      "my_step": true
+    },
+    {
+      "number": 9,
+      "name": "Monitoring",
+      "owner": "Marketing Analyst",
+      "owner_persona_id": "marketing-analyst",
+      "label": "HUMAN_PLUS_AUTOMATION",
+      "status": "pending",
+      "my_step": false
+    },
+    {
+      "number": 10,
+      "name": "Reporting",
+      "owner": "Marketing Analyst",
+      "owner_persona_id": "marketing-analyst",
+      "label": "HUMAN_PLUS_SKILL",
+      "status": "pending",
+      "my_step": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "campaign_id": "MDC-2026-MD-001",
+  "steps": [
+    {
+      "index": 0,
+      "state": "GET___campaigns_MDC-2026-MD-001_state.json",
+      "context": "GET___campaigns_MDC-2026-MD-001_context.json",
+      "audit_log": "GET___campaigns_MDC-2026-MD-001_audit-log.json",
+      "workflow": "GET___workflow_campaign-manager.json"
+    },
+    {
+      "index": 1,
+      "state": "walkthrough_mdc-2026-md-001_step-01_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-01_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-01_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-01_workflow.json"
+    },
+    {
+      "index": 2,
+      "state": "walkthrough_mdc-2026-md-001_step-02_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-02_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-02_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-02_workflow.json"
+    },
+    {
+      "index": 3,
+      "state": "walkthrough_mdc-2026-md-001_step-03_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-03_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-03_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-03_workflow.json"
+    },
+    {
+      "index": 4,
+      "state": "walkthrough_mdc-2026-md-001_step-04_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-04_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-04_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-04_workflow.json"
+    },
+    {
+      "index": 5,
+      "state": "walkthrough_mdc-2026-md-001_step-05_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-05_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-05_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-05_workflow.json"
+    },
+    {
+      "index": 6,
+      "state": "walkthrough_mdc-2026-md-001_step-06_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-06_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-06_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-06_workflow.json"
+    },
+    {
+      "index": 7,
+      "state": "walkthrough_mdc-2026-md-001_step-07_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-07_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-07_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-07_workflow.json"
+    },
+    {
+      "index": 8,
+      "state": "walkthrough_mdc-2026-md-001_step-08_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-08_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-08_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-08_workflow.json"
+    },
+    {
+      "index": 9,
+      "state": "walkthrough_mdc-2026-md-001_step-09_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-09_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-09_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-09_workflow.json"
+    },
+    {
+      "index": 10,
+      "state": "walkthrough_mdc-2026-md-001_step-10_state.json",
+      "context": "walkthrough_mdc-2026-md-001_step-10_context.json",
+      "audit_log": "walkthrough_mdc-2026-md-001_step-10_audit-log.json",
+      "workflow": "walkthrough_mdc-2026-md-001_step-10_workflow.json"
+    }
+  ]
+}

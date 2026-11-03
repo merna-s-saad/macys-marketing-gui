@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "schedule": {
+    "schedule_by_region": [
+      {
+        "region": "Mid-Atlantic",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Midwest-North",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Midwest-South",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Mountain",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Northeast",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Pacific-Northwest",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Pacific-Southwest",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "South",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Southeast",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      },
+      {
+        "region": "Southwest",
+        "timezone": "America/New_York",
+        "email_send_utc": "2026-06-01T14:00:00Z",
+        "paid_social_window_local": "18:00 to 21:00",
+        "display_frequency_cap": 3,
+        "signage_window_local": "10:00 to 21:00"
+      }
+    ],
+    "human_confirmation_required": true,
+    "retrieved_docs": []
+  },
+  "generation_metadata": {
+    "skill": "activation-scheduler",
+    "method": "deterministic",
+    "duration_ms": 0.2
+  }
+}

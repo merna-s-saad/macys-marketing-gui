@@ -1,0 +1,26 @@
+{
+  "current_step": 2,
+  "completed_steps": [
+    1
+  ],
+  "step_outputs": {
+    "1": {
+      "approved": true
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "step_name": "Briefing",
+      "action": "Approve Brief",
+      "ts": "2026-11-03T02:51:29.265434+00:00",
+      "metadata": {
+        "approved": true
+      }
+    }
+  ],
+  "is_complete": false,
+  "revisions": {},
+  "pending_revision": null,
+  "evidence": {}
+}

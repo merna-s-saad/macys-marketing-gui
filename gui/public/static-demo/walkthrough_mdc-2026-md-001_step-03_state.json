@@ -1,0 +1,154 @@
+{
+  "current_step": 4,
+  "completed_steps": [
+    1,
+    2,
+    3
+  ],
+  "step_outputs": {
+    "1": {
+      "approved": true
+    },
+    "2": {
+      "name": "VIP Loyalists",
+      "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+      "customer_count": 9590,
+      "avg_recency_days": 39.0,
+      "avg_frequency": 17.9,
+      "avg_monetary": 4037.7,
+      "top_category": "Accessories",
+      "top_category_lift": 0.156,
+      "override_reason": "",
+      "recommended_segment": "VIP Loyalists",
+      "was_override": false
+    },
+    "3": {
+      "approved_skus": [
+        "1406",
+        "782",
+        "1058",
+        "714",
+        "358",
+        "934",
+        "905",
+        "1331",
+        "864",
+        "1877",
+        "287",
+        "426",
+        "1480",
+        "1630",
+        "491",
+        "744",
+        "787",
+        "1358"
+      ],
+      "total_recommended": 18,
+      "excluded_count": 219,
+      "segment_used": "VIP Loyalists",
+      "segment_top_category": "Accessories",
+      "pricing_check": {
+        "ok": true,
+        "mcp_tool": "check_pricing_conflicts",
+        "status": "pass",
+        "conflicts": [],
+        "checked_count": 6,
+        "input": {
+          "sku_ids": [
+            "1406",
+            "782",
+            "1058",
+            "714",
+            "358",
+            "934"
+          ],
+          "proposed_discount_pct": 25.0
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "step_name": "Briefing",
+      "action": "Approve Brief",
+      "ts": "2026-11-03T02:51:29.265434+00:00",
+      "metadata": {
+        "approved": true
+      }
+    },
+    {
+      "step": 2,
+      "step_name": "Segmentation",
+      "action": "Approve Segment",
+      "ts": "2026-11-03T02:51:29.277133+00:00",
+      "metadata": {
+        "name": "VIP Loyalists",
+        "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+        "customer_count": 9590,
+        "avg_recency_days": 39.0,
+        "avg_frequency": 17.9,
+        "avg_monetary": 4037.7,
+        "top_category": "Accessories",
+        "top_category_lift": 0.156,
+        "override_reason": "",
+        "recommended_segment": "VIP Loyalists",
+        "was_override": false
+      }
+    },
+    {
+      "step": 3,
+      "step_name": "SKU Selection",
+      "action": "Approve SKU List",
+      "ts": "2026-11-03T02:51:29.287895+00:00",
+      "metadata": {
+        "approved_skus": [
+          "1406",
+          "782",
+          "1058",
+          "714",
+          "358",
+          "934",
+          "905",
+          "1331",
+          "864",
+          "1877",
+          "287",
+          "426",
+          "1480",
+          "1630",
+          "491",
+          "744",
+          "787",
+          "1358"
+        ],
+        "total_recommended": 18,
+        "excluded_count": 219,
+        "segment_used": "VIP Loyalists",
+        "segment_top_category": "Accessories",
+        "pricing_check": {
+          "ok": true,
+          "mcp_tool": "check_pricing_conflicts",
+          "status": "pass",
+          "conflicts": [],
+          "checked_count": 6,
+          "input": {
+            "sku_ids": [
+              "1406",
+              "782",
+              "1058",
+              "714",
+              "358",
+              "934"
+            ],
+            "proposed_discount_pct": 25.0
+          }
+        }
+      }
+    }
+  ],
+  "is_complete": false,
+  "revisions": {},
+  "pending_revision": null,
+  "evidence": {}
+}
