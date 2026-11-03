@@ -1,0 +1,337 @@
+{
+  "current_step": 11,
+  "completed_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "step_outputs": {
+    "1": {
+      "summary": "Brief filed by VP of Marketing for Spring Beauty Refresh targeting Women 25-45, Macy's Star Rewards members. Budget: $250K. Launch window: March 1-21, 2025."
+    },
+    "2": {
+      "summary": "3 audience segments built: Spring Skincare Enthusiasts (42K), Returning Fragrance Buyers (28K), New-to-Beauty Loyalists (19K). Total reach: 89K qualified customers."
+    },
+    "3": {
+      "summary": "14 SKUs selected across Skincare, Lip, and Eye subcategories. Avg margin 51%, avg segment match 0.84."
+    },
+    "4": {
+      "summary": "6 DAM assets retrieved and approved for campaign creative.",
+      "dam_assets": [
+        {
+          "rank": 1,
+          "asset_id": 8801,
+          "filename": "spring_hero_pastel_gradient.jpg",
+          "asset_type": "photography",
+          "tags": [
+            "spring",
+            "beauty",
+            "pastel",
+            "hero"
+          ],
+          "resolution": "4000x2667",
+          "usage_rights": "perpetual",
+          "relevance_score": 0.96,
+          "quality_flag": "approved"
+        },
+        {
+          "rank": 2,
+          "asset_id": 8802,
+          "filename": "clinique_moisture_surge_flat_lay.jpg",
+          "asset_type": "product_shot",
+          "tags": [
+            "clinique",
+            "skincare",
+            "flat_lay",
+            "spring"
+          ],
+          "resolution": "3000x3000",
+          "usage_rights": "perpetual",
+          "relevance_score": 0.93,
+          "quality_flag": "approved"
+        },
+        {
+          "rank": 3,
+          "asset_id": 8803,
+          "filename": "mac_lipstick_trio_editorial.jpg",
+          "asset_type": "editorial",
+          "tags": [
+            "MAC",
+            "lip",
+            "editorial",
+            "color"
+          ],
+          "resolution": "3500x2333",
+          "usage_rights": "expires_2026_Q2",
+          "relevance_score": 0.91,
+          "quality_flag": "approved"
+        },
+        {
+          "rank": 4,
+          "asset_id": 8804,
+          "filename": "estee_lauder_anr_lifestyle.jpg",
+          "asset_type": "lifestyle",
+          "tags": [
+            "estee_lauder",
+            "serum",
+            "lifestyle",
+            "woman"
+          ],
+          "resolution": "4000x2667",
+          "usage_rights": "perpetual",
+          "relevance_score": 0.88,
+          "quality_flag": "approved"
+        },
+        {
+          "rank": 5,
+          "asset_id": 8805,
+          "filename": "nars_blush_swatch_closeup.jpg",
+          "asset_type": "product_detail",
+          "tags": [
+            "NARS",
+            "blush",
+            "swatch",
+            "cheek"
+          ],
+          "resolution": "2500x2500",
+          "usage_rights": "perpetual",
+          "relevance_score": 0.85,
+          "quality_flag": "approved"
+        },
+        {
+          "rank": 6,
+          "asset_id": 8806,
+          "filename": "spring_bouquet_brand_texture.jpg",
+          "asset_type": "texture",
+          "tags": [
+            "spring",
+            "floral",
+            "texture",
+            "background"
+          ],
+          "resolution": "5000x3333",
+          "usage_rights": "perpetual",
+          "relevance_score": 0.82,
+          "quality_flag": "approved"
+        }
+      ]
+    },
+    "5": {
+      "summary": "4 layouts assembled: web banner (1200x628), email (600x800), mobile (414x896), in-store signage (1080x1920). All assets QA-passed."
+    },
+    "6": {
+      "compliance": {
+        "status": "pass",
+        "checks": [
+          {
+            "rule": "Brand voice alignment",
+            "result": "pass",
+            "note": "Copy on-voice per Spring 2025 brand guide (Section 4.2)"
+          },
+          {
+            "rule": "Discount T&C disclosure",
+            "result": "pass",
+            "note": "Footnote includes exclusion list and Star Rewards terms per Legal memo LM-2025-019"
+          },
+          {
+            "rule": "Image licensing",
+            "result": "pass",
+            "note": "All 6 DAM assets have valid rights through at least Q2 2026"
+          },
+          {
+            "rule": "Accessibility (WCAG 2.1 AA)",
+            "result": "pass",
+            "note": "Color contrast 4.8:1 on all placements; alt text present on every image"
+          }
+        ]
+      },
+      "approval_brief": {
+        "title": "Spring Beauty Refresh -- Final Approval Brief",
+        "submitted_to": "VP of Marketing",
+        "recommendation": "Approve for activation",
+        "budget_summary": "$250K total ($150K paid media, $60K store experience, $40K email/CRM)",
+        "projected_revenue": "$680K (2.7x ROAS)",
+        "risk_flags": "None. All compliance checks passed. Inventory levels sufficient across all 14 SKUs.",
+        "key_highlights": [
+          "Spring Skincare Enthusiasts segment projected to drive 48% of revenue",
+          "Free-gift-with-purchase threshold set at $65 to maximize basket size",
+          "Regional pricing validated across all 6 test markets"
+        ]
+      },
+      "routing": {
+        "decision": "Approved",
+        "revisions_needed": false,
+        "note": "VP approved on first review. No revisions required."
+      }
+    },
+    "7": {
+      "summary": "Localized to 4 regions with Spanish and Quebec French translations.",
+      "variants": [
+        {
+          "region": "US-Southeast",
+          "language": "English",
+          "headline": "Spring Blooms, Fresh Looks",
+          "subhead": "20% off Skincare + free gift on $65+."
+        },
+        {
+          "region": "US-Southwest",
+          "language": "Spanish",
+          "headline": "Primavera en flor, belleza renovada",
+          "subhead": "20% de descuento en Cuidado de la Piel + regalo gratis en compras de $65+."
+        },
+        {
+          "region": "CA-Quebec",
+          "language": "French (Quebec)",
+          "headline": "Le printemps s'epanouit, la beaute aussi",
+          "subhead": "20 % de rabais sur les soins de la peau + cadeau gratuit a l'achat de 65 $ et plus."
+        },
+        {
+          "region": "US-Northeast",
+          "language": "English",
+          "headline": "Refresh Your Routine This Spring",
+          "subhead": "Star Rewards members: 20% off + free shipping over $50."
+        }
+      ]
+    },
+    "8": {
+      "summary": "All 5 channels activated on schedule.",
+      "schedule": [
+        {
+          "channel": "Email",
+          "time": "Monday 7:00 AM ET",
+          "audience": "2.1M Star Rewards members",
+          "status": "Sent"
+        },
+        {
+          "channel": "Web",
+          "time": "Monday 12:00 AM ET",
+          "audience": "macys.com homepage + Beauty category",
+          "status": "Live"
+        },
+        {
+          "channel": "Mobile",
+          "time": "Monday 12:00 AM ET",
+          "audience": "Macy's app Beauty tab + push",
+          "status": "Live"
+        },
+        {
+          "channel": "In-Store",
+          "time": "Tuesday rollout",
+          "audience": "432 stores nationwide",
+          "status": "Deployed"
+        },
+        {
+          "channel": "Paid Social",
+          "time": "Monday 9:00 AM ET",
+          "audience": "Meta + TikTok lookalikes",
+          "status": "Running"
+        }
+      ]
+    },
+    "9": {
+      "summary": "Campaign ran for 21 days. Final performance below.",
+      "totals": {
+        "revenue": "$682K",
+        "spend": "$250K",
+        "roas": "2.7x",
+        "conversions": 4820,
+        "new_customers": 1340,
+        "email_open_rate": "24.1%"
+      },
+      "top_channel": "Email (drove 38% of revenue)",
+      "top_segment": "Spring Skincare Enthusiasts (drove 46% of conversions)",
+      "learnings": [
+        "Free-gift threshold at $65 lifted AOV by 12% vs. control",
+        "Quebec French localization drove 2.3x higher CTR than generic English in CA-Quebec",
+        "In-store signage underperformed digital channels; consider reducing budget next cycle",
+        "Paid social ROAS (2.1x) trailed email (4.6x); reallocate 15% of social budget to email for summer"
+      ]
+    },
+    "10": {
+      "summary": "Final report delivered to VP of Marketing. Campaign archived."
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "step_name": "Briefing",
+      "action": "Approved",
+      "ts": "2025-03-01T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 2,
+      "step_name": "Segmentation",
+      "action": "Approved",
+      "ts": "2025-03-02T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 3,
+      "step_name": "SKU Selection",
+      "action": "Approved",
+      "ts": "2025-03-03T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 4,
+      "step_name": "Creative Production",
+      "action": "Approved",
+      "ts": "2025-03-04T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 5,
+      "step_name": "Layout Assembly",
+      "action": "Approved",
+      "ts": "2025-03-05T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 6,
+      "step_name": "Approval",
+      "action": "Approved",
+      "ts": "2025-03-06T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 7,
+      "step_name": "Localization",
+      "action": "Approved",
+      "ts": "2025-03-07T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 8,
+      "step_name": "Activation",
+      "action": "Approved",
+      "ts": "2025-03-08T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 9,
+      "step_name": "Monitoring",
+      "action": "Approved",
+      "ts": "2025-03-09T10:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 10,
+      "step_name": "Reporting",
+      "action": "Approved",
+      "ts": "2025-03-10T10:00:00Z",
+      "metadata": {}
+    }
+  ],
+  "is_complete": true,
+  "revisions": {},
+  "pending_revision": null,
+  "evidence": {}
+}

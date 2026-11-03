@@ -29,6 +29,7 @@ import {
   getWithOutputFallback,
   rejectStep,
 } from "@/lib/api";
+import { IS_STATIC_DEMO } from "@/lib/static-demo";
 
 const STEP_NAMES: Record<string, string> = {
   "6a": "Compliance Pre Check",
@@ -227,6 +228,11 @@ function ReviewContent() {
     setError(null);
     setModal(null);
     try {
+      if (IS_STATIC_DEMO) {
+        // No-op in static demo — just refresh the existing captured output
+        await refresh();
+        return;
+      }
       const res = await fetch(`${API_BASE}/campaigns/${encodeURIComponent(campaignId)}/steps/${encodeURIComponent(stepId)}/rerun`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

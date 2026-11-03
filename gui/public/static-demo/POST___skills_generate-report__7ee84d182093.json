@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "report": {
+    "executive_summary": "## Mother's Day Beauty Event — Executive Report\n\nThe Mother's Day Beauty Event (MDC-2026-MD-001) targeted Beauty Enthusiasts aged 25–54, primarily Macy's Star Rewards Gold and Platinum members with prior Beauty purchase history. The campaign offered up to 25% off across skincare, fragrance, and cosmetics, supplemented by a free gift with $75+ purchases and free shipping on Beauty orders over $50. Total campaign budget was $1.8M across paid media ($1.2M), store experience ($400K), and email/CRM ($200K).\n\nThe 10-step workflow executed cleanly. Segmentation in Step 2 identified 3 segments from a pool of 45,000 customers, with Beauty Enthusiasts 25–54 selected as the primary target. Step 3 locked 6 SKUs from an initial recommendation of 18, with the pricing check confirming zero MAP conflicts across all selected products. Creative production in Step 4 sourced 12 DAM assets with active rights across all four target regions (NY, CA, FL, TX), and Step 5 generated layout copy for web banner, email, mobile, and in-store signage placements.\n\nCompliance pre-check at Step 6 passed with two warnings: the tagline \"Beauty She Deserves\" requires Brand Marketing Council review as it falls outside the pre-approved tagline list, and the \"Up to 25% off\" claim needs the FTC-required \"starting at\" minimum disclosure added. Despite these warnings, the VP approved the campaign for launch. Localization in Step 7 produced 4 regional variants covering English and Spanish, and activation in Step 8 scheduled deployment across email, paid social, display, and in-store channels.\n\nPerformance results exceeded all primary targets. Campaign revenue reached $4.8M against a $4.2M target (14% above plan), ROAS came in at 3.8x versus the 3.5x goal, email open rate hit 28% (above the 22% target), and the team acquired 5,200 new Beauty customers, surpassing the 5,000+ acquisition goal. These results compare favorably to the Spring 2025 Beauty retro (RETRO-SP-2025-BTY), which delivered $42.1M revenue at a 4.2x ROAS, and the Q4 2025 Holiday campaign (RETRO-Q4-2025), where Beauty Loyalists outperformed plan by 23%.",
+    "key_metrics": {
+      "segment_targeted": "Beauty Enthusiasts 25-54",
+      "skus_selected": 6,
+      "compliance_status": "All pass (2 warnings: tagline review needed, pricing disclosure needed)",
+      "approval_recommendation": "Approved by VP",
+      "locale_variants": 4
+    },
+    "recommendations": [
+      "Submit the tagline \"Beauty She Deserves\" to the Brand Marketing Council for formal approval before the next campaign cycle to avoid future compliance warnings",
+      "Standardize a \"starting at\" minimum disclosure in all pricing copy templates to prevent recurring FTC-related flags — the same issue appeared in COMP-EX-2026-001 Example 2",
+      "Invest more heavily in the Beauty Discovery segment for future campaigns, as the Spring 2025 retro showed this cohort converting at 2.1x baseline when offered sampling plus education",
+      "Consider a stronger reactivation offer for Beauty Lapsed customers — the Spring 2025 retro found that 10% off was insufficient to move this segment, and the current 25% offer may present an opportunity to test lapsed reactivation at this discount level",
+      "Replicate the Star Rewards multiplier strategy from Q4 2025 Holiday (which drove a 34% lift in repeat purchase rate) in future Mother's Day campaigns"
+    ],
+    "risks_and_concerns": [
+      "The tagline \"Beauty She Deserves\" was used without Brand Marketing Council pre-approval — if flagged post-launch, creative may need to be pulled and replaced",
+      "The \"Up to 25% off\" copy went live without the \"starting at\" minimum disclosure, which is required by FTC guidance per LEGAL-DIS-2026-002 — this should be remediated immediately if not already addressed",
+      "Campaign revenue of $4.8M, while above target, is significantly below the $42.1M Spring 2025 Beauty campaign, suggesting the Mother's Day window may have a narrower revenue ceiling than a full 6-week spring campaign"
+    ],
+    "retrieved_docs": ["RETRO-SP-2025-BTY", "RETRO-Q4-2025", "TICKET-INC-2025-4471", "FAQ-INT-2026-001"]
+  },
+  "generation_metadata": {
+    "skill": "report-generator",
+    "method": "claude_via_skill_invoker",
+    "duration_ms": 4200
+  }
+}

@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 
 import { API_BASE, fetchWithFallback } from "@/lib/api";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 import { PageTransition } from "@/components/motion";
 
 type KnowledgeDoc = {
@@ -82,17 +83,29 @@ export default function KnowledgePage() {
   const [loadingDoc, setLoadingDoc] = useState(false);
 
   useEffect(() => {
-    fetchWithFallback<{ docs: KnowledgeDoc[] }>("/knowledge", "knowledge_list")
-      .then((data) => { setDocs(data.docs); setLoading(false); })
-      .catch(() => setLoading(false));
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<{ docs: KnowledgeDoc[] }>("GET", "/knowledge");
+        if (data) { setDocs(data.docs); setLoading(false); return; }
+      }
+      fetchWithFallback<{ docs: KnowledgeDoc[] }>("/knowledge", "knowledge_list")
+        .then((data) => { setDocs(data.docs); setLoading(false); })
+        .catch(() => setLoading(false));
+    })();
   }, []);
 
   function openDoc(docId: string) {
     setLoadingDoc(true);
-    fetch(`${API_BASE}/knowledge/${encodeURIComponent(docId)}`, { cache: "no-store" })
-      .then((r) => r.json())
-      .then((data) => { setSelectedDoc(data); setLoadingDoc(false); })
-      .catch(() => setLoadingDoc(false));
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<DocDetail>("GET", `/knowledge/${docId}`);
+        if (data) { setSelectedDoc(data); setLoadingDoc(false); return; }
+      }
+      fetch(`${API_BASE}/knowledge/${encodeURIComponent(docId)}`, { cache: "no-store" })
+        .then((r) => r.json())
+        .then((data) => { setSelectedDoc(data); setLoadingDoc(false); })
+        .catch(() => setLoadingDoc(false));
+    })();
   }
 
   const filtered = docs.filter((d) => {

@@ -1,0 +1,57 @@
+{
+  "localized_variants": [
+    {
+      "region": "NY",
+      "language": "en",
+      "pricing_note": "Standard continental pricing applies.",
+      "effective_discount_pct": 25.0,
+      "holiday_overlay": null,
+      "retrieved_docs": [
+        "LOC-STYLE-2025-002",
+        "BRAND-GL-2026-001",
+        "DAM-TAG-2025-005",
+        "FAQ-INT-2026-001"
+      ]
+    },
+    {
+      "region": "CA",
+      "language": "en",
+      "pricing_note": "Standard continental pricing applies.",
+      "effective_discount_pct": 25.0,
+      "holiday_overlay": null,
+      "retrieved_docs": [
+        "LOC-STYLE-2025-002",
+        "BRAND-GL-2026-001",
+        "DAM-TAG-2025-005",
+        "FAQ-INT-2026-001"
+      ]
+    },
+    {
+      "region": "FL",
+      "language": "es",
+      "pricing_note": "Standard continental pricing applies.",
+      "effective_discount_pct": 25.0,
+      "holiday_overlay": null,
+      "retrieved_docs": [
+        "LOC-STYLE-2025-002",
+        "BRAND-GL-2026-001",
+        "DAM-TAG-2025-005",
+        "FAQ-INT-2026-001"
+      ]
+    },
+    {
+      "region": "TX",
+      "language": "es",
+      "pricing_note": "Standard continental pricing applies.",
+      "effective_discount_pct": 25.0,
+      "holiday_overlay": null,
+      "retrieved_docs": [
+        "LOC-STYLE-2025-002",
+        "BRAND-GL-2026-001",
+        "DAM-TAG-2025-005",
+        "FAQ-INT-2026-001"
+      ]
+    }
+  ],
+  "activation_schedule": null
+}

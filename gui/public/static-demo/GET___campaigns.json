@@ -1,0 +1,35 @@
+[
+  {
+    "id": "MDC-2026-MD-001",
+    "name": "Mother's Day Beauty Event",
+    "status": "active",
+    "current_step": 1,
+    "current_step_name": "Briefing",
+    "days_remaining": 12,
+    "days_label": "12 days remaining",
+    "owner_role": "Campaign Manager",
+    "color_indicator": "green"
+  },
+  {
+    "id": "MDC-2025-SP-BTY",
+    "name": "Spring Beauty Refresh",
+    "status": "completed",
+    "current_step": 10,
+    "current_step_name": "Reporting",
+    "days_remaining": -75,
+    "days_label": "Completed Mar 2025",
+    "owner_role": "Marketing Analyst",
+    "color_indicator": "gray"
+  },
+  {
+    "id": "MDC-2026-SS-003",
+    "name": "Summer Style",
+    "status": "planned",
+    "current_step": 3,
+    "current_step_name": "SKU Selection",
+    "days_remaining": 44,
+    "days_label": "Starts in 44 days",
+    "owner_role": "Campaign Manager",
+    "color_indicator": "yellow"
+  }
+]

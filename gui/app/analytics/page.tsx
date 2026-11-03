@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import { fetchWithFallback } from "@/lib/api";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 import { PageTransition } from "@/components/motion";
 
 type CampaignMetric = {
@@ -60,9 +61,15 @@ export default function AnalyticsPage() {
   const [data, setData] = useState<AnalyticsData | null>(null);
 
   useEffect(() => {
-    fetchWithFallback<AnalyticsData>("/analytics/overview", "analytics_overview")
-      .then(setData)
-      .catch(() => {});
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<AnalyticsData>("GET", "/analytics/overview");
+        if (data) { setData(data); return; }
+      }
+      fetchWithFallback<AnalyticsData>("/analytics/overview", "analytics_overview")
+        .then(setData)
+        .catch(() => {});
+    })();
   }, []);
 
   if (!data) {

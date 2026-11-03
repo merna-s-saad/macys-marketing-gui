@@ -29,6 +29,8 @@ import {
   X,
 } from "lucide-react";
 
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
+
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "https://macys-api-n6f3.onrender.com";
 // Auth is now handled by cookie session, not query param.
@@ -375,6 +377,11 @@ function StoryEditPage() {
   // Check auth on mount
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
+    if (IS_STATIC_DEMO) {
+      // Skip real auth in static demo — always grant access
+      setAuthed(true);
+      return;
+    }
     const token = localStorage.getItem("editor_token");
     if (!token) {
       router.push("/story-edit/login");
@@ -414,8 +421,14 @@ function StoryEditPage() {
   // Load slides
   const fetchSlides = useCallback(async () => {
     try {
-      const r = await fetch(`${API_BASE}/api/slides`, { cache: "no-store" });
-      const data = await r.json();
+      let data: { slides?: Slide[] };
+      if (IS_STATIC_DEMO) {
+        const staticResult = await resolveStatic<{ slides: Slide[] }>("GET", "/api/slides");
+        data = staticResult ?? { slides: [] };
+      } else {
+        const r = await fetch(`${API_BASE}/api/slides`, { cache: "no-store" });
+        data = await r.json();
+      }
       setSlides(data.slides || []);
     } catch (e) {
       showToast(`Load failed: ${(e as Error).message}`, "error");
@@ -451,6 +464,11 @@ function StoryEditPage() {
     // Send the current id order to the backend; it will renumber on save
     setSaving(true);
     try {
+      if (IS_STATIC_DEMO) {
+        // No-op in static demo — local state already updated above
+        setSaving(false);
+        return;
+      }
       const r = await fetch(`${API_BASE}/api/slides/reorder`, {
         method: "POST",
         headers: { "Content-Type": "application/json", ...authHeaders() },
@@ -471,6 +489,13 @@ function StoryEditPage() {
     if (!editSlide) return;
     setSaving(true);
     try {
+      if (IS_STATIC_DEMO) {
+        // Apply update locally only — no backend call
+        setSlides((prev) => prev.map((s) => (s.id === editSlide.id ? { ...s, notes } : s)));
+        setEditSlide(null);
+        setSaving(false);
+        return;
+      }
       const r = await fetch(`${API_BASE}/api/slides/${editSlide.id}/update`, {
         method: "POST",
         headers: { "Content-Type": "application/json", ...authHeaders() },
@@ -491,6 +516,16 @@ function StoryEditPage() {
     if (!confirm(`Delete slide ${slideId}? This cannot be undone.`)) return;
     setSaving(true);
     try {
+      if (IS_STATIC_DEMO) {
+        // Apply deletion locally only — no backend call
+        setSlides((prev) => {
+          const filtered = prev.filter((s) => s.id !== slideId);
+          filtered.forEach((s, i) => { s.id = i + 1; });
+          return filtered;
+        });
+        setSaving(false);
+        return;
+      }
       const r = await fetch(`${API_BASE}/api/slides/${slideId}`, { method: "DELETE", headers: authHeaders() });
       const data = await r.json();
       setSlides((prev) => {
@@ -511,6 +546,12 @@ function StoryEditPage() {
     setAddOpen(false); // close modal immediately
     setSaving(true);
     try {
+      if (IS_STATIC_DEMO) {
+        // No-op in static demo — cannot upload images without a backend
+        showToast("Add slide is not available in demo mode", "info");
+        setSaving(false);
+        return;
+      }
       const r = await fetch(`${API_BASE}/api/slides/add`, {
         method: "POST",
         headers: authHeaders(),

@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "mcp_tool": "send_campaign_summary",
+  "status": "error",
+  "recipients_count": 0,
+  "message_id": null,
+  "error": "Gmail credentials not configured. Set GMAIL_USER and GMAIL_APP_PASSWORD environment variables."
+}

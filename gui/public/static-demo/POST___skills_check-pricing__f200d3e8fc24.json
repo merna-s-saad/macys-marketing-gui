@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "mcp_tool": "check_pricing_conflicts",
+  "status": "pass",
+  "conflicts": [],
+  "checked_count": 6,
+  "input": {
+    "sku_ids": [
+      "1406",
+      "782",
+      "1058",
+      "714",
+      "358",
+      "934"
+    ],
+    "proposed_discount_pct": 25.0
+  }
+}

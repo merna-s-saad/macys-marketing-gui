@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
 import { ArrowRightCircle, BarChart3, BookOpen, Bot, Check, Circle, Cog, Database, Factory, LayoutDashboard, Lock, MessageCircle, RotateCcw, Settings, TrendingUp, User, X, Brain } from "lucide-react";
+import { IS_STATIC_DEMO } from "@/lib/static-demo";
 
 import { ActionPanel } from "@/components/ActionPanel";
 import { FloatingPersonaAvatar } from "@/components/FloatingPersonaAvatar";
@@ -258,7 +259,10 @@ export function PersonaShell({
 
   useEffect(() => {
     refresh();
-    pollIntervalRef.current = setInterval(refresh, POLL_INTERVAL_MS);
+    // In static demo mode, data never changes server-side, so polling is a no-op.
+    if (!IS_STATIC_DEMO) {
+      pollIntervalRef.current = setInterval(refresh, POLL_INTERVAL_MS);
+    }
     return () => { if (pollIntervalRef.current) clearInterval(pollIntervalRef.current); };
   }, [refresh]);
 

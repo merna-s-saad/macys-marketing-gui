@@ -1,0 +1,65 @@
+{
+  "query": "What disclaimers are required for up to percent off pricing?",
+  "naive_results": [
+    {
+      "doc_id": "BRAND-GL-2026-001",
+      "section": "Pricing Language",
+      "chunk_text": "Pricing Language\n\nAll pricing claims must follow the standard format below. This format was negotiated with Legal in 2024 and is required for compliance with state consumer protection laws.\n\n* For range claims, write \"Up to 40 percent off\" never \"40% off\" alone.\n* For tiered claims, always include t",
+      "score": 0.6795
+    },
+    {
+      "doc_id": "LEGAL-DIS-2026-002",
+      "section": "Pricing Claims",
+      "chunk_text": "Pricing Claims\n\n### Up To Claims\n\nAny \"up to X percent off\" claim must include the minimum discount available in the offer. Example: \"Up to 40 percent off, starting at 10 percent off.\"\n\nThis is required by Federal Trade Commission guidance on representative pricing claims.\n\n### Compare At Pricing\n\nF",
+      "score": 0.6307
+    },
+    {
+      "doc_id": "LEGAL-DIS-2026-002",
+      "section": "Sizing of Disclaimers",
+      "chunk_text": "Sizing of Disclaimers\n\nDisclaimers must be at least 8 point on print, 10 point on digital, and clearly legible against background. Disclaimers may not be hidden, faded, or placed off canvas. On video, disclaimers must remain on screen for at least 4 seconds and be paired with a stable background col",
+      "score": 0.5665
+    },
+    {
+      "doc_id": "COMP-EX-2026-001",
+      "section": "Examples",
+      "chunk_text": "Examples\n\n### Example 1, banned word \"last chance\"\n\n* **Flagged copy**: \"Last chance on Spring Beauty, ends Sunday.\"\n* **Rule tripped**: BRAND-GL-2026-001, banned word list.\n* **Fix**: \"Spring Beauty, ends Sunday.\" (urgency carried by the date, not the phrase.)\n\n### Example 2, \"up to\" missing minimu",
+      "score": 0.541
+    }
+  ],
+  "naive_error": null,
+  "hyq_results": [
+    {
+      "doc_id": "LEGAL-DIS-2026-002",
+      "section": "Pricing Claims",
+      "chunk_text": "Pricing Claims\n\n### Up To Claims\n\nAny \"up to X percent off\" claim must include the minimum discount available in the offer. Example: \"Up to 40 percent off, starting at 10 percent off.\"\n\nThis is required by Federal Trade Commission guidance on representative pricing claims.\n\n### Compare At Pricing\n\nF",
+      "score": 0.6863,
+      "matched_via": "question",
+      "matched_question": "What must be included with an 'up to X percent off' claim?"
+    },
+    {
+      "doc_id": "BRAND-GL-2026-001",
+      "section": "Pricing Language",
+      "chunk_text": "Pricing Language\n\nAll pricing claims must follow the standard format below. This format was negotiated with Legal in 2024 and is required for compliance with state consumer protection laws.\n\n* For range claims, write \"Up to 40 percent off\" never \"40% off\" alone.\n* For tiered claims, always include t",
+      "score": 0.6795,
+      "matched_via": "chunk",
+      "matched_question": null
+    },
+    {
+      "doc_id": "LEGAL-DIS-2026-002",
+      "section": "Sizing of Disclaimers",
+      "chunk_text": "Sizing of Disclaimers\n\nDisclaimers must be at least 8 point on print, 10 point on digital, and clearly legible against background. Disclaimers may not be hidden, faded, or placed off canvas. On video, disclaimers must remain on screen for at least 4 seconds and be paired with a stable background col",
+      "score": 0.6514,
+      "matched_via": "question",
+      "matched_question": "What are the requirements for disclaimers to be legible?"
+    },
+    {
+      "doc_id": "TICKET-INC-2026-0212",
+      "section": "Submission Quality Checklist (used by Abdullah)",
+      "chunk_text": "Submission Quality Checklist (used by Abdullah)\n\nFor reference, here is the pre submission checklist Abdullah used. It is not required, but it correlates strongly with two day approvals.\n\n* All disclaimers pre cleared with Legal at kickoff\n* Headline mapped to an approved tagline pattern or pre revi",
+      "score": 0.5856,
+      "matched_via": "question",
+      "matched_question": "What are the requirements for disclaimers before submission?"
+    }
+  ],
+  "hyq_error": null
+}

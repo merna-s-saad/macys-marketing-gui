@@ -1,0 +1,65 @@
+{
+  "query": "Beauty campaign retro performance benchmarks",
+  "naive_results": [
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Performance",
+      "chunk_text": "Performance\n\n* Total campaign revenue: $42.1M (plan was $39.3M)\n* Email open rate: 32 percent (segment average 26 percent)\n* Paid social ROAS: 4.2 (target was 3.5)\n* In store conversion: 18 percent uplift in Beauty department over comparable weeks in 2024\n\nThe Beauty Discovery segment (customers who",
+      "score": 0.5781
+    },
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Segment Learnings",
+      "chunk_text": "Segment Learnings\n\n### Beauty Loyalists\n\nAlready engaged. The Spring campaign confirmed that Beauty Loyalists respond best to product depth (full ingredient stories, founder content, ritual videos) rather than discount messaging. The 5 minute founder video for the new La Mer launch drove the highest",
+      "score": 0.5194
+    },
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Summary",
+      "chunk_text": "Summary\n\nThe Spring 2025 Beauty launch ran March 3 through April 15, anchored by the \"Find Your Glow\" creative platform. Merna led the campaign with support from the Beauty Merchandising team. Revenue came in 7 percent ahead of plan, driven primarily by skincare and fragrance gift sets. Below are th",
+      "score": 0.5122
+    },
+    {
+      "doc_id": "RETRO-Q4-2025",
+      "section": "Wins",
+      "chunk_text": "Wins\n\n### Beauty Loyalists Segment Outperformed\n\nThe Beauty Loyalists segment (customers who purchased prestige Beauty in the prior 12 months and held an active Star Rewards account) outperformed plan by 23 percent. Email open rate hit 41 percent (versus a 28 percent target) and conversion ran 1.6x ",
+      "score": 0.5033
+    }
+  ],
+  "naive_error": null,
+  "hyq_results": [
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Performance",
+      "chunk_text": "Performance\n\n* Total campaign revenue: $42.1M (plan was $39.3M)\n* Email open rate: 32 percent (segment average 26 percent)\n* Paid social ROAS: 4.2 (target was 3.5)\n* In store conversion: 18 percent uplift in Beauty department over comparable weeks in 2024\n\nThe Beauty Discovery segment (customers who",
+      "score": 0.5781,
+      "matched_via": "chunk",
+      "matched_question": null
+    },
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "What Merna and the Team Would Do Differently",
+      "chunk_text": "What Merna and the Team Would Do Differently\n\n1. Move the sampling offer earlier in the campaign. The sampling offer launched in week three. By the time it landed, the cleanest segment overlap windows had passed. Next launch, lead with the sample, follow with the full collection story.\n\n2. Pair the ",
+      "score": 0.5595,
+      "matched_via": "question",
+      "matched_question": "What changes would be made to the lapsed Beauty offer in the next launch?"
+    },
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Segment Learnings",
+      "chunk_text": "Segment Learnings\n\n### Beauty Loyalists\n\nAlready engaged. The Spring campaign confirmed that Beauty Loyalists respond best to product depth (full ingredient stories, founder content, ritual videos) rather than discount messaging. The 5 minute founder video for the new La Mer launch drove the highest",
+      "score": 0.5202,
+      "matched_via": "chunk",
+      "matched_question": null
+    },
+    {
+      "doc_id": "RETRO-SP-2025-BTY",
+      "section": "Summary",
+      "chunk_text": "Summary\n\nThe Spring 2025 Beauty launch ran March 3 through April 15, anchored by the \"Find Your Glow\" creative platform. Merna led the campaign with support from the Beauty Merchandising team. Revenue came in 7 percent ahead of plan, driven primarily by skincare and fragrance gift sets. Below are th",
+      "score": 0.5044,
+      "matched_via": "chunk",
+      "matched_question": null
+    }
+  ],
+  "hyq_error": null
+}

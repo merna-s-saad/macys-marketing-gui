@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Loader2, Search, Sparkles } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "https://macys-api-n6f3.onrender.com";
@@ -108,17 +109,28 @@ export default function RagComparePage() {
     setError(null);
     setResult(null);
     try {
-      const res = await fetch(`${API_BASE}/api/rag/compare`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: trimmed }),
-        cache: "no-store",
-      });
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`API ${res.status}: ${text}`);
+      let data: CompareResponse;
+      if (IS_STATIC_DEMO) {
+        const staticResult = await resolveStatic<CompareResponse>(
+          "POST",
+          "/api/rag/compare",
+          { query: trimmed },
+        );
+        if (!staticResult) throw new Error("No static demo data for this query.");
+        data = staticResult;
+      } else {
+        const res = await fetch(`${API_BASE}/api/rag/compare`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: trimmed }),
+          cache: "no-store",
+        });
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(`API ${res.status}: ${text}`);
+        }
+        data = await res.json();
       }
-      const data: CompareResponse = await res.json();
       setResult(data);
     } catch (e) {
       setError((e as Error).message);

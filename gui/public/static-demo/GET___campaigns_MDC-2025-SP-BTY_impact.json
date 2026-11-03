@@ -1,0 +1,205 @@
+{
+  "campaign_id": "MDC-2025-SP-BTY",
+  "campaign_name": "Spring Beauty Refresh",
+  "current_step": 11,
+  "is_complete": true,
+  "completed_step_count": 10,
+  "hero": {
+    "hours_saved": 236.1,
+    "dollars_saved": 17707,
+    "baseline_days": 46.5,
+    "ai_supported_days": 7.2,
+    "days_saved": 39.3,
+    "pct_reduction": 85
+  },
+  "steps": [
+    {
+      "step": "1",
+      "step_name": "Briefing",
+      "completed": true,
+      "baseline_days": {
+        "low": 3,
+        "high": 5,
+        "mid": 4.0
+      },
+      "ai_supported_days": {
+        "low": 0.25,
+        "high": 0.5,
+        "mid": 0.375
+      },
+      "days_saved": 3.62,
+      "hours_saved": 21.8,
+      "dollars_saved": 1635
+    },
+    {
+      "step": "2",
+      "step_name": "Segmentation",
+      "completed": true,
+      "baseline_days": {
+        "low": 2,
+        "high": 3,
+        "mid": 2.5
+      },
+      "ai_supported_days": {
+        "low": 0.25,
+        "high": 0.5,
+        "mid": 0.375
+      },
+      "days_saved": 2.12,
+      "hours_saved": 12.8,
+      "dollars_saved": 960
+    },
+    {
+      "step": "3",
+      "step_name": "SKU Selection",
+      "completed": true,
+      "baseline_days": {
+        "low": 3,
+        "high": 5,
+        "mid": 4.0
+      },
+      "ai_supported_days": {
+        "low": 0.5,
+        "high": 0.75,
+        "mid": 0.625
+      },
+      "days_saved": 3.38,
+      "hours_saved": 20.2,
+      "dollars_saved": 1515
+    },
+    {
+      "step": "4",
+      "step_name": "Creative Production",
+      "completed": true,
+      "baseline_days": {
+        "low": 5,
+        "high": 10,
+        "mid": 7.5
+      },
+      "ai_supported_days": {
+        "low": 1,
+        "high": 2,
+        "mid": 1.5
+      },
+      "days_saved": 6.0,
+      "hours_saved": 36.0,
+      "dollars_saved": 2700
+    },
+    {
+      "step": "5",
+      "step_name": "Layout Assembly",
+      "completed": true,
+      "baseline_days": {
+        "low": 5,
+        "high": 7,
+        "mid": 6.0
+      },
+      "ai_supported_days": {
+        "low": 1,
+        "high": 2,
+        "mid": 1.5
+      },
+      "days_saved": 4.5,
+      "hours_saved": 27.0,
+      "dollars_saved": 2025
+    },
+    {
+      "step": "6",
+      "step_name": "Final Approval",
+      "completed": true,
+      "baseline_days": {
+        "low": 3,
+        "high": 7,
+        "mid": 5.0
+      },
+      "ai_supported_days": {
+        "low": 0.25,
+        "high": 0.5,
+        "mid": 0.375
+      },
+      "days_saved": 4.62,
+      "hours_saved": 27.8,
+      "dollars_saved": 2085
+    },
+    {
+      "step": "7",
+      "step_name": "Localization",
+      "completed": true,
+      "baseline_days": {
+        "low": 5,
+        "high": 8,
+        "mid": 6.5
+      },
+      "ai_supported_days": {
+        "low": 0.125,
+        "high": 0.25,
+        "mid": 0.1875
+      },
+      "days_saved": 6.31,
+      "hours_saved": 37.9,
+      "dollars_saved": 2842
+    },
+    {
+      "step": "8",
+      "step_name": "Activation",
+      "completed": true,
+      "baseline_days": {
+        "low": 1,
+        "high": 3,
+        "mid": 2.0
+      },
+      "ai_supported_days": {
+        "low": 0.25,
+        "high": 0.5,
+        "mid": 0.375
+      },
+      "days_saved": 1.62,
+      "hours_saved": 9.8,
+      "dollars_saved": 735
+    },
+    {
+      "step": "9",
+      "step_name": "Monitoring",
+      "completed": true,
+      "baseline_days": {
+        "low": 1,
+        "high": 2,
+        "mid": 1.5
+      },
+      "ai_supported_days": {
+        "low": 0.25,
+        "high": 0.5,
+        "mid": 0.375
+      },
+      "days_saved": 1.12,
+      "hours_saved": 6.8,
+      "dollars_saved": 510
+    },
+    {
+      "step": "10",
+      "step_name": "Reporting",
+      "completed": true,
+      "baseline_days": {
+        "low": 5,
+        "high": 10,
+        "mid": 7.5
+      },
+      "ai_supported_days": {
+        "low": 1,
+        "high": 2,
+        "mid": 1.5
+      },
+      "days_saved": 6.0,
+      "hours_saved": 36.0,
+      "dollars_saved": 2700
+    }
+  ],
+  "quality": {
+    "compliance_findings": 3,
+    "compliance_failures": 0,
+    "revision_rounds": 0,
+    "evidence_coverage_steps": 0,
+    "evidence_coverage_pct": 0,
+    "mcp_invocations": 0
+  }
+}

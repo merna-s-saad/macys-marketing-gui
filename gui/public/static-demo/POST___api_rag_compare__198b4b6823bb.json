@@ -1,0 +1,65 @@
+{
+  "query": "What are the MAP restrictions for Lancome and Estee Lauder?",
+  "naive_results": [
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Brands Under Strict MAP",
+      "chunk_text": "Brands Under Strict MAP\n\nThe following brands enforce minimum advertised price under their vendor agreements. Discounts on these brands require written Merchandising approval and are typically only available during vendor sponsored events.\n\n* Levi's\n* Coach (above $500 ticket)\n* Lancome\n* Estee Laud",
+      "score": 0.5395
+    },
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Exclusions",
+      "chunk_text": "Exclusions\n\nThe following categories are typically excluded from storewide promotions. Confirm with Merchandising before each campaign, as exclusions can change by season.\n\n* Fine Jewelry (above $1,000 ticket)\n* Fragrance, with exceptions for promotional sets\n* Beauty prestige (Lancome, Estee Lauder",
+      "score": 0.4547
+    },
+    {
+      "doc_id": "FAQ-INT-2026-001",
+      "section": "How do I find out if my brand is under MAP?",
+      "chunk_text": "How do I find out if my brand is under MAP?\n\nCheck PRICE-RULES-2026-001 for the standing MAP list. Brands are added throughout the year so the standing list may be out of date. When in doubt, ask Merchandising before you write the promo headline.",
+      "score": 0.4503
+    },
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Purpose",
+      "chunk_text": "Purpose\n\nThis document defines how promotional discounts can be combined, what categories are excluded from promotions, and how vendor MAP rules apply.",
+      "score": 0.4082
+    }
+  ],
+  "naive_error": null,
+  "hyq_results": [
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Brands Under Strict MAP",
+      "chunk_text": "Brands Under Strict MAP\n\nThe following brands enforce minimum advertised price under their vendor agreements. Discounts on these brands require written Merchandising approval and are typically only available during vendor sponsored events.\n\n* Levi's\n* Coach (above $500 ticket)\n* Lancome\n* Estee Laud",
+      "score": 0.5395,
+      "matched_via": "chunk",
+      "matched_question": null
+    },
+    {
+      "doc_id": "FAQ-INT-2026-001",
+      "section": "How do I find out if my brand is under MAP?",
+      "chunk_text": "How do I find out if my brand is under MAP?\n\nCheck PRICE-RULES-2026-001 for the standing MAP list. Brands are added throughout the year so the standing list may be out of date. When in doubt, ask Merchandising before you write the promo headline.",
+      "score": 0.5053,
+      "matched_via": "question",
+      "matched_question": "What list should I check to see if my brand is under MAP?"
+    },
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Purpose",
+      "chunk_text": "Purpose\n\nThis document defines how promotional discounts can be combined, what categories are excluded from promotions, and how vendor MAP rules apply.",
+      "score": 0.4839,
+      "matched_via": "question",
+      "matched_question": "How do vendor MAP rules apply?"
+    },
+    {
+      "doc_id": "PRICE-RULES-2026-001",
+      "section": "Exclusions",
+      "chunk_text": "Exclusions\n\nThe following categories are typically excluded from storewide promotions. Confirm with Merchandising before each campaign, as exclusions can change by season.\n\n* Fine Jewelry (above $1,000 ticket)\n* Fragrance, with exceptions for promotional sets\n* Beauty prestige (Lancome, Estee Lauder",
+      "score": 0.4547,
+      "matched_via": "chunk",
+      "matched_question": null
+    }
+  ],
+  "hyq_error": null
+}

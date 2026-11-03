@@ -1,0 +1,7 @@
+{
+  "response": "I can build segment options for that. Running the Audience Segment Builder against \"Mother's Day Beauty Event\" now.",
+  "action": "run_segment",
+  "data": {
+    "brief": "Mother's Day Beauty Event"
+  }
+}

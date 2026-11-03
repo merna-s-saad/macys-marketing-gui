@@ -1,0 +1,264 @@
+{
+  "ok": true,
+  "analysis": {
+    "campaign_id": 7,
+    "campaign_name": "Fall Style Edit 2025",
+    "campaign_status": "completed",
+    "campaign_window": {
+      "start": "2025-09-08",
+      "end": "2026-01-06",
+      "days": 121
+    },
+    "totals": {
+      "revenue": 20046407.87,
+      "spend": 1078492.99,
+      "conversions": 190107,
+      "roas": 18.59
+    },
+    "attribution": {
+      "by_channel": [
+        {
+          "channel": "email",
+          "revenue": 12459098.62,
+          "spend": 220803.56,
+          "conversions": 125940,
+          "impressions": 110714229,
+          "clicks": 3365108,
+          "roas": 56.43,
+          "cac": 1.75,
+          "rank": 1
+        },
+        {
+          "channel": "search",
+          "revenue": 4308552.46,
+          "spend": 211638.47,
+          "conversions": 37361,
+          "impressions": 18065780,
+          "clicks": 724758,
+          "roas": 20.36,
+          "cac": 5.66,
+          "rank": 2
+        },
+        {
+          "channel": "instore",
+          "revenue": 2596553.13,
+          "spend": 203154.92,
+          "conversions": 18763,
+          "impressions": 241746,
+          "clicks": 0,
+          "roas": 12.78,
+          "cac": 10.83,
+          "rank": 3
+        },
+        {
+          "channel": "paid_social",
+          "revenue": 429574.78,
+          "spend": 223161.85,
+          "conversions": 4847,
+          "impressions": 26659483,
+          "clicks": 265011,
+          "roas": 1.92,
+          "cac": 46.04,
+          "rank": 4
+        },
+        {
+          "channel": "display",
+          "revenue": 252628.88,
+          "spend": 219734.19,
+          "conversions": 3196,
+          "impressions": 55972824,
+          "clicks": 279383,
+          "roas": 1.15,
+          "cac": 68.75,
+          "rank": 5
+        }
+      ],
+      "by_segment": [
+        {
+          "segment": "Platinum",
+          "conversions": 1448,
+          "revenue": 1273494.24,
+          "customer_base": 1468,
+          "conversion_rate": 0.986376,
+          "lift_vs_avg": 0.4352
+        },
+        {
+          "segment": "Gold",
+          "conversions": 5697,
+          "revenue": 3677819.44,
+          "customer_base": 5989,
+          "conversion_rate": 0.951244,
+          "lift_vs_avg": 0.3841
+        },
+        {
+          "segment": "Silver",
+          "conversions": 10137,
+          "revenue": 4316450.72,
+          "customer_base": 12494,
+          "conversion_rate": 0.811349,
+          "lift_vs_avg": 0.1805
+        },
+        {
+          "segment": "Bronze",
+          "conversions": 17082,
+          "revenue": 5222923.8,
+          "customer_base": 30049,
+          "conversion_rate": 0.568471,
+          "lift_vs_avg": -0.1729
+        }
+      ],
+      "by_sku_revenue": [
+        {
+          "sku_id": 386,
+          "name": "Coach Jewelry Some",
+          "revenue": 34116.96,
+          "units": 57
+        },
+        {
+          "sku_id": 1600,
+          "name": "Coach Handbag Rate",
+          "revenue": 33933.82,
+          "units": 54
+        },
+        {
+          "sku_id": 1099,
+          "name": "Fossil Sunglasse Make",
+          "revenue": 33799.53,
+          "units": 55
+        },
+        {
+          "sku_id": 1244,
+          "name": "Kate Spade Jewelry Mean",
+          "revenue": 33728.93,
+          "units": 52
+        },
+        {
+          "sku_id": 1510,
+          "name": "Kate Spade Scarve Treat",
+          "revenue": 32774.06,
+          "units": 56
+        },
+        {
+          "sku_id": 1124,
+          "name": "Fossil Watche Today",
+          "revenue": 32401.06,
+          "units": 58
+        },
+        {
+          "sku_id": 756,
+          "name": "Michael Kors Jewelry Stock",
+          "revenue": 31932.62,
+          "units": 55
+        },
+        {
+          "sku_id": 1713,
+          "name": "Tag Heuer Handbag Themselves",
+          "revenue": 31875.2,
+          "units": 49
+        },
+        {
+          "sku_id": 1003,
+          "name": "Tory Burch Watche End",
+          "revenue": 30678.07,
+          "units": 52
+        },
+        {
+          "sku_id": 869,
+          "name": "Kate Spade Handbag Space",
+          "revenue": 30624.16,
+          "units": 58
+        }
+      ],
+      "by_sku_units": [
+        {
+          "sku_id": 419,
+          "name": "Charter Club Decor Director",
+          "units": 82,
+          "revenue": 25177.84
+        },
+        {
+          "sku_id": 478,
+          "name": "Chanel Skincare Four",
+          "units": 79,
+          "revenue": 5271.33
+        },
+        {
+          "sku_id": 451,
+          "name": "Tag Heuer Scarve Over",
+          "units": 77,
+          "revenue": 24440.3
+        },
+        {
+          "sku_id": 859,
+          "name": "MAC Haircare Six",
+          "units": 73,
+          "revenue": 9655.35
+        },
+        {
+          "sku_id": 1760,
+          "name": "Clinique Makeup Along",
+          "units": 72,
+          "revenue": 6384.85
+        },
+        {
+          "sku_id": 424,
+          "name": "Dior Fragrance Ask",
+          "units": 71,
+          "revenue": 8187.21
+        },
+        {
+          "sku_id": 482,
+          "name": "Martha Stewart Luggage Baby",
+          "units": 71,
+          "revenue": 7338.42
+        },
+        {
+          "sku_id": 126,
+          "name": "Chanel Haircare Special",
+          "units": 70,
+          "revenue": 6208.16
+        },
+        {
+          "sku_id": 1710,
+          "name": "Cuisinart Furniture Scene",
+          "units": 70,
+          "revenue": 24143.27
+        },
+        {
+          "sku_id": 104,
+          "name": "Bobbi Brown Makeup Write",
+          "units": 69,
+          "revenue": 4582.66
+        }
+      ],
+      "top_channel": "email",
+      "worst_channel": "display",
+      "top_segment": "Platinum"
+    },
+    "forecast": {
+      "horizon_days": 14,
+      "history_days": 30,
+      "forecast_status": "success",
+      "revenue": {
+        "predicted": 171767.5,
+        "lower_bound": 116271.85,
+        "upper_bound": 227263.14,
+        "trend_direction": "up"
+      },
+      "conversions": {
+        "predicted": 1475,
+        "lower_bound": 977,
+        "upper_bound": 1973,
+        "trend_direction": "up"
+      },
+      "roas": {
+        "predicted": 20.71,
+        "lower_bound": 15.04,
+        "upper_bound": 26.39,
+        "trend_direction": "up"
+      }
+    },
+    "summary": "The Fall Style Edit 2025 generated $20.05M in revenue across 121 days. email was the strongest channel (56.4x ROAS), while display underperformed (1.1x ROAS). The Platinum segment over indexed at +44% vs the campaign average conversion rate. Looking ahead to the next 14 days, revenue is forecast to trend up to $172K (80 percent CI: $116K to $227K).",
+    "generated_at": "2026-07-14T19:05:17.474772+00:00"
+  }
+}

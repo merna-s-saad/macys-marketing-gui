@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "active_campaigns": 1,
+    "completed_campaigns": 1,
+    "planned_campaigns": 1,
+    "total_campaigns": 3,
+    "pending_escalations": 0,
+    "recent_actions": 0,
+    "hours_saved_total": 270.7,
+    "dollars_saved_total": 20302
+  },
+  "campaigns": [
+    {
+      "campaign_id": "MDC-2026-MD-001",
+      "name": "Mother's Day Beauty Event",
+      "status": "planned",
+      "current_step": 1,
+      "current_step_name": "Briefing",
+      "completed_step_count": 0,
+      "hours_saved": 0
+    },
+    {
+      "campaign_id": "MDC-2025-SP-BTY",
+      "name": "Spring Beauty Refresh",
+      "status": "completed",
+      "current_step": 11,
+      "current_step_name": "",
+      "completed_step_count": 10,
+      "hours_saved": 236.1
+    },
+    {
+      "campaign_id": "MDC-2026-SS-003",
+      "name": "Summer Style",
+      "status": "active",
+      "current_step": 3,
+      "current_step_name": "SKU Selection",
+      "completed_step_count": 2,
+      "hours_saved": 34.6
+    }
+  ],
+  "recent_activity": [],
+  "escalations": []
+}

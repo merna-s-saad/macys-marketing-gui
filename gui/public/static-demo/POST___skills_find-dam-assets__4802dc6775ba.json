@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "mcp_tool": "find_dam_assets",
+  "status": "pass",
+  "assets": [
+    {
+      "asset_id": "DAM-BTY-SP26-014",
+      "filename": "beauty_skincare_hero.jpg",
+      "tag_list": "skincare,hero,spring,model",
+      "region_rights": "NY,CA,FL,TX,PR"
+    },
+    {
+      "asset_id": "DAM-BTY-SP26-021",
+      "filename": "beauty_serum_lifestyle.jpg",
+      "tag_list": "serum,lifestyle,natural light",
+      "region_rights": "NY,CA"
+    },
+    {
+      "asset_id": "DAM-BTY-SP26-031",
+      "filename": "beauty_routine_layered.jpg",
+      "tag_list": "routine,product still,no model",
+      "region_rights": "NY,CA,FL,TX,PR"
+    },
+    {
+      "asset_id": "DAM-BTY-QC-001",
+      "filename": "beauty_quebec_skincare.jpg",
+      "tag_list": "skincare,bilingual,model",
+      "region_rights": "QC,NY"
+    }
+  ],
+  "result_count": 4,
+  "input": {
+    "category": "Beauty",
+    "region": "NY",
+    "max_results": 5
+  }
+}

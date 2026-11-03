@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 
 import { fetchWithFallback } from "@/lib/api";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 import {
   PageTransition,
   FadeInView,
@@ -233,9 +234,15 @@ export default function ImpactPage() {
 
   useEffect(() => {
     setLoading(true);
-    fetchWithFallback<Portfolio>("/impact/portfolio", "impact_portfolio")
-      .then((data) => { setPortfolio(data); setLoading(false); })
-      .catch(() => setLoading(false));
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<Portfolio>("GET", "/impact/portfolio");
+        if (data) { setPortfolio(data); setLoading(false); return; }
+      }
+      fetchWithFallback<Portfolio>("/impact/portfolio", "impact_portfolio")
+        .then((data) => { setPortfolio(data); setLoading(false); })
+        .catch(() => setLoading(false));
+    })();
   }, []);
 
   const selected = portfolio?.campaigns.find((c) => c.campaign_id === selectedId) ?? portfolio?.campaigns[0];

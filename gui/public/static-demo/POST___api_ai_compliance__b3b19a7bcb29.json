@@ -1,0 +1,19 @@
+{
+  "brand_alignment": {
+    "status": "warn",
+    "reason": "Campaign copy contains no banned words from the prohibited list (cheap, basic, last chance, clearance blowout, dirt cheap, unbeatable, lowest prices anywhere, nobody beats Macys). However, the tagline \"Beauty She Deserves\" is not on the pre-approved tagline list (The Magic of Macys, Find Your Magic, Star Rewards Every Day, New In Store New Online). Per BRAND-GL-2026-001, any tagline outside the approved list requires Brand Marketing Council review before it appears in production creative.",
+    "cited_doc": "BRAND-GL-2026-001"
+  },
+  "disclaimers": {
+    "status": "warn",
+    "reason": "The campaign copy states \"Up to 25% off premium skincare, fragrance, and cosmetics\" but does not include the required \"starting at\" minimum disclosure. Per BRAND-GL-2026-001 pricing language rules and LEGAL-DIS-2026-002 FTC representative pricing guidance, any \"up to X percent off\" claim must include the minimum discount available in the offer (e.g., \"Up to 25 percent off, starting at 10 percent off\"). See COMP-EX-2026-001 Example 2 for a prior flag on the same issue.",
+    "cited_doc": "LEGAL-DIS-2026-002"
+  },
+  "pricing_cross_check": {
+    "status": "pass",
+    "reason": "Checked 6 campaign SKUs (1406, 782, 1058, 714, 358, 934) against the MAP-enforced brand list at a proposed 25% discount. No conflicts found. None of the selected SKUs belong to MAP-enforced brands (Lancome, Estee Lauder, Clinique, La Mer, Dior Beauty, Levi's, Coach, Tag Heuer). The 25% discount does not exceed the 50% stacking ceiling.",
+    "cited_doc": "PRICE-RULES-2026-001"
+  },
+  "recommended_action": "proceed",
+  "retrieved_docs": ["BRAND-GL-2026-001", "LEGAL-DIS-2026-002", "PRICE-RULES-2026-001", "COMP-EX-2026-001"]
+}

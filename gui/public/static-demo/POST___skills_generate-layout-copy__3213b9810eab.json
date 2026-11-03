@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "placements": {
+    "web_banner": {
+      "tagline": "Give Mom the Gift of Beauty",
+      "body": "Up to 25% off skincare, fragrance, and cosmetics. Free gift with $75+ purchase.",
+      "cta": "Shop Beauty Gifts",
+      "visual_direction": "Hero shot of a curated gift set on soft pink linen, warm natural lighting with fresh peonies as accent — evoke the feeling of an unwrapped present."
+    },
+    "email": {
+      "tagline": "She Gave You Everything. Give Her Beauty.",
+      "body": "This Mother's Day, treat her to the beauty she deserves. Enjoy up to 25% off premium skincare, fragrance, and cosmetics — plus a free gift with purchases of $75 or more. Star Rewards members get free shipping on Beauty orders over $50.",
+      "cta": "Shop Her Favorites",
+      "visual_direction": "Clean editorial layout with a product flatlay of top skincare and fragrance picks, soft gradient background shifting from blush to cream, with a personal handwritten-style header font."
+    },
+    "mobile": {
+      "tagline": "Beauty for Mom. Up to 25% Off.",
+      "body": "Skincare, fragrance, and cosmetics she'll love. Free gift with $75+ purchase.",
+      "cta": "Shop Now",
+      "visual_direction": "Single hero product image on a clean white background, bold typography, thumb-friendly CTA button in Macy's red."
+    },
+    "in_store_signage": {
+      "tagline": "Celebrate Mom with Beauty",
+      "body": "Up to 25% off. Free gift with $75+ purchase.",
+      "cta": "Find Her Gift",
+      "visual_direction": "Large lifestyle image of a woman receiving a wrapped beauty gift, warm tones, minimal text overlay so the visual carries the emotional weight at a distance."
+    }
+  },
+  "validation_errors": [],
+  "generation_metadata": {
+    "skill": "layout-copy-generator",
+    "method": "claude_via_skill_invoker",
+    "duration_ms": 3500
+  }
+}

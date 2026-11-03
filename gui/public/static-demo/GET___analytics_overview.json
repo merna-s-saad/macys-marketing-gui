@@ -1,0 +1,55 @@
+{
+  "campaigns": [
+    {
+      "campaign_id": "MDC-2025-SP-BTY",
+      "campaign_name": "Spring Beauty Refresh",
+      "hours_saved": 236.1,
+      "dollars_saved": 17707,
+      "days_saved": 39.3,
+      "pct_reduction": 85,
+      "completed_steps": 10,
+      "compliance_findings": 3,
+      "revision_rounds": 0,
+      "evidence_coverage_pct": 0
+    },
+    {
+      "campaign_id": "MDC-2026-SS-003",
+      "campaign_name": "Summer Style",
+      "hours_saved": 34.6,
+      "dollars_saved": 2595,
+      "days_saved": 39.3,
+      "pct_reduction": 85,
+      "completed_steps": 2,
+      "compliance_findings": 0,
+      "revision_rounds": 0,
+      "evidence_coverage_pct": 0
+    },
+    {
+      "campaign_id": "MDC-2026-MD-001",
+      "campaign_name": "Mother's Day Beauty Event",
+      "hours_saved": 0,
+      "dollars_saved": 0,
+      "days_saved": 39.3,
+      "pct_reduction": 85,
+      "completed_steps": 0,
+      "compliance_findings": 0,
+      "revision_rounds": 0,
+      "evidence_coverage_pct": 0
+    }
+  ],
+  "campaign_count": 3,
+  "totals": {
+    "hours_saved": 270.7,
+    "dollars_saved": 20302,
+    "compliance_findings": 3,
+    "compliance_failures": 0,
+    "revision_rounds": 0,
+    "mcp_invocations": 0
+  },
+  "mcp_by_tool": {
+    "check_pricing_conflicts": 0,
+    "find_dam_assets": 0,
+    "generate_locale_variants": 0
+  },
+  "projected_annual": 554921
+}

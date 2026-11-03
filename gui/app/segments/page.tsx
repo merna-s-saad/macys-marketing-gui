@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Users } from "lucide-react";
 
 import { fetchWithFallback } from "@/lib/api";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 import { PageTransition } from "@/components/motion";
 
 type Segment = {
@@ -38,9 +39,15 @@ export default function SegmentsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchWithFallback<SegmentsData>("/segments/overview", "segments_overview")
-      .then((d) => { setData(d); setLoading(false); })
-      .catch(() => setLoading(false));
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<SegmentsData>("GET", "/segments/overview");
+        if (data) { setData(data); setLoading(false); return; }
+      }
+      fetchWithFallback<SegmentsData>("/segments/overview", "segments_overview")
+        .then((d) => { setData(d); setLoading(false); })
+        .catch(() => setLoading(false));
+    })();
   }, []);
 
   if (!data) {

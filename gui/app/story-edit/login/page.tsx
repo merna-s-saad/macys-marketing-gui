@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Loader2, Lock } from "lucide-react";
+import { IS_STATIC_DEMO } from "@/lib/static-demo";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "https://macys-api-n6f3.onrender.com";
@@ -16,6 +17,12 @@ export default function LoginPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!password.trim()) return;
+    if (IS_STATIC_DEMO) {
+      // Skip real auth — grant access immediately with a demo token
+      localStorage.setItem("editor_token", "demo-token");
+      router.push("/story-edit");
+      return;
+    }
     setBusy(true);
     setError(null);
     try {

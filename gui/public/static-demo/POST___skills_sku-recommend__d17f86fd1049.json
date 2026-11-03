@@ -1,0 +1,1818 @@
+{
+  "ok": true,
+  "recommended_skus": [
+    {
+      "sku_id": "1406",
+      "name": "MAC Fragrance Issue",
+      "brand": "MAC",
+      "category": "Beauty",
+      "subcategory": "Fragrance",
+      "msrp": 156.42,
+      "margin_pct": 0.4591,
+      "inventory_level": 1411,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.853,
+      "score_pct": 85.3,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.706,
+        "margin": 0.706,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "782",
+      "name": "Bobbi Brown Makeup Tell",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Makeup",
+      "msrp": 93.96,
+      "margin_pct": 0.4198,
+      "inventory_level": 1447,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.8423,
+      "score_pct": 84.2,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.724,
+        "margin": 0.646,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1058",
+      "name": "Chanel Skincare Support",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 88.79,
+      "margin_pct": 0.4708,
+      "inventory_level": 1173,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.8277,
+      "score_pct": 82.8,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.587,
+        "margin": 0.724,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "714",
+      "name": "Chanel Haircare Available",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Haircare",
+      "msrp": 59.88,
+      "margin_pct": 0.495,
+      "inventory_level": 1424,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7634,
+      "score_pct": 76.3,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.712,
+        "margin": 0.762,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "358",
+      "name": "Bobbi Brown Skincare Boy",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 176.46,
+      "margin_pct": 0.4978,
+      "inventory_level": 560,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7615,
+      "score_pct": 76.1,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.28,
+        "margin": 0.766,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "934",
+      "name": "Chanel Makeup Player",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Makeup",
+      "msrp": 67.36,
+      "margin_pct": 0.4547,
+      "inventory_level": 1424,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7479,
+      "score_pct": 74.8,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.712,
+        "margin": 0.7,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "905",
+      "name": "MAC Haircare Kitchen",
+      "brand": "MAC",
+      "category": "Beauty",
+      "subcategory": "Haircare",
+      "msrp": 21.84,
+      "margin_pct": 0.4429,
+      "inventory_level": 1455,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7472,
+      "score_pct": 74.7,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.728,
+        "margin": 0.681,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1331",
+      "name": "Chanel Skincare Building",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 163.4,
+      "margin_pct": 0.4933,
+      "inventory_level": 452,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7462,
+      "score_pct": 74.6,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.226,
+        "margin": 0.759,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "864",
+      "name": "Bobbi Brown Skincare Society",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 170.25,
+      "margin_pct": 0.48,
+      "inventory_level": 441,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7397,
+      "score_pct": 74.0,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.221,
+        "margin": 0.738,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1877",
+      "name": "Chanel Haircare Clear",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Haircare",
+      "msrp": 132.01,
+      "margin_pct": 0.4222,
+      "inventory_level": 1423,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7353,
+      "score_pct": 73.5,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.712,
+        "margin": 0.65,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "287",
+      "name": "Bobbi Brown Skincare Remain",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 90.84,
+      "margin_pct": 0.4605,
+      "inventory_level": 1246,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "fall"
+      ],
+      "score": 0.7329,
+      "score_pct": 73.3,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.623,
+        "margin": 0.708,
+        "vendor": 1.0,
+        "seasonality": 0.5
+      }
+    },
+    {
+      "sku_id": "426",
+      "name": "MAC Wellnes Former",
+      "brand": "MAC",
+      "category": "Beauty",
+      "subcategory": "Wellness",
+      "msrp": 157.76,
+      "margin_pct": 0.4254,
+      "inventory_level": 548,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7321,
+      "score_pct": 73.2,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.274,
+        "margin": 0.654,
+        "vendor": 1.0,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1480",
+      "name": "MAC Skincare Build",
+      "brand": "MAC",
+      "category": "Beauty",
+      "subcategory": "Skincare",
+      "msrp": 127.24,
+      "margin_pct": 0.4645,
+      "inventory_level": 1218,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7259,
+      "score_pct": 72.6,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.609,
+        "margin": 0.715,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1630",
+      "name": "Bobbi Brown Makeup Soon",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Makeup",
+      "msrp": 83.33,
+      "margin_pct": 0.4701,
+      "inventory_level": 1116,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "winter"
+      ],
+      "score": 0.7203,
+      "score_pct": 72.0,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.558,
+        "margin": 0.723,
+        "vendor": 1.0,
+        "seasonality": 0.5
+      }
+    },
+    {
+      "sku_id": "491",
+      "name": "Chanel Haircare Move",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Haircare",
+      "msrp": 32.11,
+      "margin_pct": 0.448,
+      "inventory_level": 1159,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7122,
+      "score_pct": 71.2,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.58,
+        "margin": 0.689,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "744",
+      "name": "Bobbi Brown Wellnes Contain",
+      "brand": "Bobbi Brown",
+      "category": "Beauty",
+      "subcategory": "Wellness",
+      "msrp": 62.41,
+      "margin_pct": 0.488,
+      "inventory_level": 969,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "high",
+      "seasonal_tags": [
+        "summer"
+      ],
+      "score": 0.7088,
+      "score_pct": 70.9,
+      "top_reason": "Active vendor commitment",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.484,
+        "margin": 0.751,
+        "vendor": 1.0,
+        "seasonality": 0.5
+      }
+    },
+    {
+      "sku_id": "787",
+      "name": "Chanel Makeup Down",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Makeup",
+      "msrp": 119.51,
+      "margin_pct": 0.4117,
+      "inventory_level": 1217,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "all",
+        "everyday"
+      ],
+      "score": 0.7055,
+      "score_pct": 70.5,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.609,
+        "margin": 0.633,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    },
+    {
+      "sku_id": "1358",
+      "name": "Chanel Makeup Yes",
+      "brand": "Chanel",
+      "category": "Beauty",
+      "subcategory": "Makeup",
+      "msrp": 140.41,
+      "margin_pct": 0.4514,
+      "inventory_level": 1081,
+      "map_protected": false,
+      "map_floor_pct": 0,
+      "vendor_commitment": "medium",
+      "seasonal_tags": [
+        "spring"
+      ],
+      "score": 0.7037,
+      "score_pct": 70.4,
+      "top_reason": "Good seasonal fit",
+      "excluded": false,
+      "excluded_reason": null,
+      "detail": {
+        "inventory": 0.54,
+        "margin": 0.694,
+        "vendor": 0.65,
+        "seasonality": 1.0
+      }
+    }
+  ],
+  "excluded_skus": [
+    {
+      "sku_id": "4",
+      "name": "Dior Skincare Site",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "19",
+      "name": "Dior Skincare All",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "25",
+      "name": "Dior Skincare Agreement",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "28",
+      "name": "Lancome Haircare Sense",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "29",
+      "name": "Clinique Makeup Rate",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "49",
+      "name": "Lancome Haircare Source",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "90",
+      "name": "Dior Skincare Blood",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "94",
+      "name": "Clinique Haircare Prove",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "98",
+      "name": "Estee Lauder Fragrance Hospital",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "120",
+      "name": "Dior Wellnes Rise",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "130",
+      "name": "Dior Skincare Term",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "137",
+      "name": "Clinique Makeup Development",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "143",
+      "name": "Clinique Wellnes Forward",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "154",
+      "name": "Lancome Makeup Chair",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "173",
+      "name": "Lancome Skincare Anyone",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "188",
+      "name": "Lancome Haircare Newspaper",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "211",
+      "name": "Clinique Wellnes Seven",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "222",
+      "name": "Dior Fragrance Process",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "233",
+      "name": "Clinique Fragrance Notice",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "256",
+      "name": "Dior Haircare Bar",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "276",
+      "name": "Estee Lauder Skincare Land",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "285",
+      "name": "Estee Lauder Wellnes Forget",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "288",
+      "name": "Clinique Fragrance Rate",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "290",
+      "name": "Clinique Fragrance Left",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "296",
+      "name": "Lancome Fragrance Down",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "302",
+      "name": "Dior Skincare Drug",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "307",
+      "name": "Estee Lauder Makeup Second",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "311",
+      "name": "Dior Haircare Author",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "321",
+      "name": "Lancome Haircare Mention",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "327",
+      "name": "Clinique Wellnes Us",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "339",
+      "name": "Lancome Haircare Reason",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "341",
+      "name": "Lancome Fragrance Health",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "344",
+      "name": "Lancome Haircare Manage",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "360",
+      "name": "Dior Wellnes Dark",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "363",
+      "name": "Estee Lauder Fragrance List",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "403",
+      "name": "Dior Haircare With",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "416",
+      "name": "Estee Lauder Haircare Clear",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "424",
+      "name": "Dior Fragrance Ask",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "452",
+      "name": "Estee Lauder Haircare Employee",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "456",
+      "name": "Estee Lauder Haircare President",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "458",
+      "name": "Estee Lauder Fragrance Kind",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "483",
+      "name": "Dior Makeup Act",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "485",
+      "name": "Clinique Wellnes Pretty",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "502",
+      "name": "Dior Fragrance Coach",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "521",
+      "name": "Dior Makeup Unit",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "527",
+      "name": "Clinique Wellnes Situation",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "549",
+      "name": "Dior Fragrance Protect",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "551",
+      "name": "Clinique Makeup Themselves",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "553",
+      "name": "Clinique Wellnes Another",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "566",
+      "name": "Dior Skincare Option",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "571",
+      "name": "Lancome Wellnes Use",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "581",
+      "name": "Lancome Wellnes Choose",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "606",
+      "name": "Clinique Haircare So",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "624",
+      "name": "Clinique Makeup Word",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "627",
+      "name": "Estee Lauder Skincare Relationship",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "633",
+      "name": "Estee Lauder Wellnes Collection",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "634",
+      "name": "Estee Lauder Haircare Store",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "637",
+      "name": "Estee Lauder Makeup Idea",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "647",
+      "name": "Estee Lauder Makeup Hard",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "652",
+      "name": "Lancome Haircare Drive",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "653",
+      "name": "Estee Lauder Haircare Dog",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "655",
+      "name": "Estee Lauder Makeup Receive",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "660",
+      "name": "Lancome Fragrance Treatment",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "674",
+      "name": "Lancome Wellnes Business",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "675",
+      "name": "Clinique Makeup Understand",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "692",
+      "name": "Dior Makeup Image",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "693",
+      "name": "Dior Wellnes We",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "701",
+      "name": "Estee Lauder Makeup Nature",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "713",
+      "name": "Estee Lauder Wellnes Lawyer",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "725",
+      "name": "Clinique Fragrance First",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "741",
+      "name": "Estee Lauder Makeup Research",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "748",
+      "name": "Estee Lauder Haircare Into",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "789",
+      "name": "Dior Haircare Decide",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "792",
+      "name": "Estee Lauder Haircare Any",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "793",
+      "name": "Estee Lauder Fragrance Election",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "798",
+      "name": "Lancome Fragrance Baby",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "803",
+      "name": "Clinique Makeup Parent",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "805",
+      "name": "Lancome Wellnes Serious",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "809",
+      "name": "Estee Lauder Makeup Instead",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "816",
+      "name": "Dior Makeup Social",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "817",
+      "name": "Estee Lauder Skincare Traditional",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "830",
+      "name": "Lancome Wellnes Onto",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "832",
+      "name": "Estee Lauder Fragrance Whose",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "835",
+      "name": "Lancome Skincare Loss",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "836",
+      "name": "Dior Makeup Cell",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "839",
+      "name": "Clinique Skincare Region",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "850",
+      "name": "Lancome Skincare Wait",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "858",
+      "name": "Dior Makeup Cold",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "865",
+      "name": "Clinique Wellnes End",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "866",
+      "name": "Clinique Fragrance Though",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "911",
+      "name": "Lancome Haircare Safe",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "915",
+      "name": "Estee Lauder Makeup Southern",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "922",
+      "name": "Clinique Skincare Fire",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "925",
+      "name": "Clinique Fragrance Tonight",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "928",
+      "name": "Dior Fragrance Kind",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "940",
+      "name": "Lancome Wellnes Least",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "950",
+      "name": "Dior Wellnes Company",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "957",
+      "name": "Dior Skincare Agreement",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "969",
+      "name": "Dior Makeup Main",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "970",
+      "name": "Lancome Haircare Court",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "977",
+      "name": "Lancome Skincare General",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "979",
+      "name": "Dior Makeup Sort",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "980",
+      "name": "Clinique Fragrance Until",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "986",
+      "name": "Dior Fragrance Entire",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "988",
+      "name": "Dior Makeup Beat",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "994",
+      "name": "Lancome Makeup Hard",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1002",
+      "name": "Estee Lauder Makeup Allow",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1010",
+      "name": "Dior Makeup Card",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1018",
+      "name": "Lancome Haircare Scene",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1026",
+      "name": "Lancome Haircare Serious",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1041",
+      "name": "Estee Lauder Skincare Industry",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1052",
+      "name": "Dior Haircare Same",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1065",
+      "name": "Clinique Wellnes No",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1076",
+      "name": "Estee Lauder Skincare Test",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1086",
+      "name": "Clinique Makeup Claim",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1094",
+      "name": "Dior Fragrance System",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1114",
+      "name": "Clinique Skincare Either",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1115",
+      "name": "Dior Wellnes Social",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1116",
+      "name": "Clinique Wellnes Majority",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1126",
+      "name": "Lancome Makeup Court",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1140",
+      "name": "Lancome Makeup Action",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1144",
+      "name": "Clinique Makeup Bed",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1176",
+      "name": "Estee Lauder Fragrance Oil",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1180",
+      "name": "Clinique Fragrance Long",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1205",
+      "name": "Dior Fragrance Fear",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1208",
+      "name": "Dior Fragrance Daughter",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1211",
+      "name": "Lancome Haircare Herself",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1212",
+      "name": "Estee Lauder Makeup Country",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1223",
+      "name": "Dior Fragrance Save",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1225",
+      "name": "Lancome Makeup Card",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1230",
+      "name": "Dior Fragrance Board",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1238",
+      "name": "Clinique Wellnes Grow",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1252",
+      "name": "Dior Haircare Professional",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1256",
+      "name": "Estee Lauder Haircare Church",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1260",
+      "name": "Estee Lauder Wellnes Bed",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1264",
+      "name": "Dior Fragrance South",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1275",
+      "name": "Dior Wellnes When",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1280",
+      "name": "Lancome Makeup Laugh",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1286",
+      "name": "Estee Lauder Skincare Sister",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1293",
+      "name": "Dior Haircare Everything",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1304",
+      "name": "Lancome Skincare Little",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1313",
+      "name": "Lancome Fragrance Fear",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1315",
+      "name": "Lancome Fragrance Trade",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1352",
+      "name": "Clinique Haircare Capital",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1360",
+      "name": "Clinique Skincare Month",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1380",
+      "name": "Lancome Haircare People",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1390",
+      "name": "Dior Fragrance Continue",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1394",
+      "name": "Lancome Skincare Letter",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1419",
+      "name": "Dior Wellnes You",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1422",
+      "name": "Dior Makeup Soon",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1432",
+      "name": "Clinique Skincare International",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1433",
+      "name": "Estee Lauder Wellnes Treatment",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1454",
+      "name": "Dior Haircare Example",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1468",
+      "name": "Lancome Skincare Education",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1471",
+      "name": "Dior Wellnes Foreign",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1474",
+      "name": "Clinique Wellnes Old",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1483",
+      "name": "Clinique Haircare Buy",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1490",
+      "name": "Estee Lauder Haircare Film",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1507",
+      "name": "Estee Lauder Makeup Skin",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1508",
+      "name": "Clinique Wellnes Until",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1525",
+      "name": "Estee Lauder Wellnes She",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1530",
+      "name": "Lancome Haircare Receive",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1535",
+      "name": "Clinique Makeup Nothing",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1546",
+      "name": "Clinique Fragrance True",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1558",
+      "name": "Clinique Haircare Size",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1571",
+      "name": "Lancome Haircare Although",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1580",
+      "name": "Lancome Fragrance Less",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1584",
+      "name": "Lancome Haircare Loss",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1588",
+      "name": "Estee Lauder Wellnes It",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1606",
+      "name": "Lancome Skincare Town",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1610",
+      "name": "Clinique Makeup Produce",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1619",
+      "name": "Lancome Wellnes Authority",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1621",
+      "name": "Estee Lauder Wellnes Program",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1623",
+      "name": "Clinique Skincare Will",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1628",
+      "name": "Clinique Makeup Leader",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1641",
+      "name": "Lancome Makeup Any",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1643",
+      "name": "Clinique Haircare Style",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1657",
+      "name": "Estee Lauder Makeup Conference",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1660",
+      "name": "Clinique Haircare Poor",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1662",
+      "name": "Estee Lauder Makeup Idea",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1688",
+      "name": "Estee Lauder Fragrance You",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1692",
+      "name": "Dior Makeup Purpose",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1700",
+      "name": "Clinique Fragrance If",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1702",
+      "name": "Estee Lauder Skincare Meeting",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1714",
+      "name": "Lancome Makeup Reason",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1734",
+      "name": "Clinique Skincare Drug",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1740",
+      "name": "Lancome Fragrance Customer",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1745",
+      "name": "Lancome Skincare Set",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1746",
+      "name": "Estee Lauder Haircare Speak",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1760",
+      "name": "Clinique Makeup Along",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1761",
+      "name": "Dior Makeup Particularly",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1768",
+      "name": "Dior Makeup General",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1771",
+      "name": "Clinique Makeup Continue",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1790",
+      "name": "Lancome Fragrance Find",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1826",
+      "name": "Dior Haircare Pull",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1833",
+      "name": "Dior Fragrance Ago",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1843",
+      "name": "Estee Lauder Haircare At",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1858",
+      "name": "Lancome Haircare Mind",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1864",
+      "name": "Clinique Haircare Central",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1873",
+      "name": "Estee Lauder Skincare Kind",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1876",
+      "name": "Lancome Fragrance Short",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1878",
+      "name": "Lancome Skincare Value",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1895",
+      "name": "Estee Lauder Makeup Top",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1901",
+      "name": "Estee Lauder Wellnes Week",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1928",
+      "name": "Lancome Haircare Themselves",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1931",
+      "name": "Estee Lauder Haircare Despite",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1932",
+      "name": "Estee Lauder Fragrance Peace",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1939",
+      "name": "Lancome Skincare Choose",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1947",
+      "name": "Dior Haircare Case",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1953",
+      "name": "Clinique Wellnes Recent",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1958",
+      "name": "Lancome Fragrance Help",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1962",
+      "name": "Lancome Wellnes Per",
+      "brand": "Lancome",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1965",
+      "name": "Dior Wellnes Contain",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1966",
+      "name": "Clinique Fragrance Evidence",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1974",
+      "name": "Dior Haircare Attack",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1978",
+      "name": "Clinique Haircare High",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1983",
+      "name": "Clinique Makeup Most",
+      "brand": "Clinique",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1984",
+      "name": "Estee Lauder Wellnes Do",
+      "brand": "Estee Lauder",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    },
+    {
+      "sku_id": "1988",
+      "name": "Dior Fragrance Short",
+      "brand": "Dior",
+      "reason": "Would violate MAP at 25.0% discount (floor: 10%)"
+    }
+  ],
+  "total_in_category": 377,
+  "criteria_used": "Inventory (25%) + Margin (25%) + Vendor commitment (30%) + Seasonality (20%)"
+}

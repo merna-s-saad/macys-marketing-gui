@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import { fetchWithFallback } from "@/lib/api";
+import { IS_STATIC_DEMO, resolveStatic } from "@/lib/static-demo";
 import { PageTransition, PulsingDots } from "@/components/motion";
 
 type DashboardData = {
@@ -66,9 +67,15 @@ export default function DashboardPage() {
   const [data, setData] = useState<DashboardData | null>(null);
 
   useEffect(() => {
-    fetchWithFallback<DashboardData>("/dashboard/overview", "dashboard_overview")
-      .then(setData)
-      .catch(() => {});
+    (async () => {
+      if (IS_STATIC_DEMO) {
+        const data = await resolveStatic<DashboardData>("GET", "/dashboard/overview");
+        if (data) { setData(data); return; }
+      }
+      fetchWithFallback<DashboardData>("/dashboard/overview", "dashboard_overview")
+        .then(setData)
+        .catch(() => {});
+    })();
   }, []);
 
   if (!data) {

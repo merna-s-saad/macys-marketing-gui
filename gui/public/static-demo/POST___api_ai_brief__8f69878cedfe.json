@@ -1,0 +1,12 @@
+{
+  "campaign_goal": "Drive Beauty category revenue 20% above last year's Mother's Day window by winning back lapsed Beauty buyers and acquiring first-time Beauty customers from existing Macy's Star Rewards loyalists.",
+  "target_audience": "Women 28 to 55 who are Macy's Star Rewards members with prior Beauty purchases or expressed Beauty preference, with emphasis on Gold and Platinum tier loyalty members.",
+  "expected_roi": "Based on the Spring 2025 Beauty retro (RETRO-SP-2025-BTY), comparable Beauty campaigns delivered $42.1M revenue against a $39.3M plan (7% above target), paid social ROAS of 4.2x versus a 3.5x target, and email open rates of 32% against a 26% segment average; the Q4 2025 Holiday campaign (RETRO-Q4-2025) saw Beauty Loyalists outperform plan by 23% with email open rates reaching 41%.",
+  "risk_flags": [
+    "Tagline \"Beauty She Deserves\" is not on the pre-approved tagline list per BRAND-GL-2026-001 and requires Brand Marketing Council review before production",
+    "Campaign copy \"Up to 25% off\" is missing the required \"starting at\" minimum disclosure per LEGAL-DIS-2026-002 and BRAND-GL-2026-001 pricing language rules",
+    "Beauty Lapsed segment showed minimal response in the Spring 2025 retro even with dedicated reactivation emails — reactivation messaging may need a stronger offer than the current 25% discount to move this cohort"
+  ],
+  "ai_recommendation": "Approve — all compliance findings are warnings, not failures, and both are straightforward fixes (submit tagline for Brand Council review, add starting-at minimum to pricing copy). The campaign benchmarks strongly against prior Beauty retros and the $1.8M budget is well within precedent.",
+  "retrieved_docs": ["RETRO-SP-2025-BTY", "RETRO-Q4-2025"]
+}

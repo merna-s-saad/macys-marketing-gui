@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "mcp_tool": "generate_locale_variants",
+  "status": "pass",
+  "original_copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+  "translated_copy": "Celebrate Mom with the gift of beauty. Jusqu'a 25% off premium skincare, fragrance, and cosmetics.",
+  "target_language": "fr-CA",
+  "applied_pricing": null,
+  "applied_phrases": [
+    "Up to"
+  ],
+  "unmatched_words": 4,
+  "input": {
+    "copy": "Celebrate Mom with the gift of beauty. Up to 25% off premium skincare, fragrance, and cosmetics.",
+    "target_language": "fr-CA"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "segments": [
+    {
+      "name": "VIP Loyalists",
+      "customer_count": 9590,
+      "pct_of_total": 19.3,
+      "top_category": "Accessories",
+      "top_category_lift": 0.156,
+      "avg_recency_days": 39.0,
+      "avg_frequency": 17.9,
+      "avg_monetary": 4037.7,
+      "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+      "loyalty_mix": {
+        "Bronze": 2.6,
+        "Gold": 52.7,
+        "Platinum": 15.2,
+        "Silver": 29.4
+      },
+      "used_by_campaigns": []
+    },
+    {
+      "name": "Mid Tier Engaged",
+      "customer_count": 31631,
+      "pct_of_total": 63.5,
+      "top_category": "Beauty",
+      "top_category_lift": 0.0866,
+      "avg_recency_days": 70.4,
+      "avg_frequency": 6.7,
+      "avg_monetary": 1308.58,
+      "definition": "K-means RFM cluster: avg recency 71d, frequency 6.7 txns, monetary $1,308",
+      "loyalty_mix": {
+        "Bronze": 68.7,
+        "Gold": 2.9,
+        "Platinum": 0.0,
+        "Silver": 28.4
+      },
+      "used_by_campaigns": []
+    },
+    {
+      "name": "Lapsed or New",
+      "customer_count": 8586,
+      "pct_of_total": 17.2,
+      "top_category": "Beauty",
+      "top_category_lift": 0.0315,
+      "avg_recency_days": 314.0,
+      "avg_frequency": 3.8,
+      "avg_monetary": 770.07,
+      "definition": "K-means RFM cluster: avg recency 314d, frequency 3.8 txns, monetary $769",
+      "loyalty_mix": {
+        "Bronze": 91.9,
+        "Gold": 0.2,
+        "Silver": 7.9
+      },
+      "used_by_campaigns": []
+    }
+  ],
+  "total_customers": 49807,
+  "methodology": "K-means clustering (k=3) on RFM features (Recency, Frequency, Monetary) across 50,000 customers from macys.db."
+}

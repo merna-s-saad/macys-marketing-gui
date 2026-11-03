@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "brief": "Mother's Day Beauty Event",
+  "segments": [
+    {
+      "name": "VIP Loyalists",
+      "definition": "K-means RFM cluster: avg recency 39d, frequency 17.9 txns, monetary $4,035",
+      "customer_count": 9590,
+      "avg_recency_days": 39.0,
+      "avg_frequency": 17.9,
+      "avg_monetary": 4037.7,
+      "top_category": "Accessories",
+      "top_category_lift": 0.156,
+      "loyalty_mix": {
+        "Bronze": 2.6,
+        "Gold": 52.7,
+        "Platinum": 15.2,
+        "Silver": 29.4
+      }
+    },
+    {
+      "name": "Mid Tier Engaged",
+      "definition": "K-means RFM cluster: avg recency 71d, frequency 6.7 txns, monetary $1,308",
+      "customer_count": 31631,
+      "avg_recency_days": 70.4,
+      "avg_frequency": 6.7,
+      "avg_monetary": 1308.58,
+      "top_category": "Beauty",
+      "top_category_lift": 0.0866,
+      "loyalty_mix": {
+        "Bronze": 68.7,
+        "Gold": 2.9,
+        "Platinum": 0.0,
+        "Silver": 28.4
+      }
+    },
+    {
+      "name": "Lapsed or New",
+      "definition": "K-means RFM cluster: avg recency 314d, frequency 3.8 txns, monetary $769",
+      "customer_count": 8586,
+      "avg_recency_days": 314.0,
+      "avg_frequency": 3.8,
+      "avg_monetary": 770.07,
+      "top_category": "Beauty",
+      "top_category_lift": 0.0315,
+      "loyalty_mix": {
+        "Bronze": 91.9,
+        "Gold": 0.2,
+        "Silver": 7.9
+      }
+    }
+  ],
+  "total_clustered": 49807
+}

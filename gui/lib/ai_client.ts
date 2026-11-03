@@ -4,12 +4,21 @@
 // the server is idle takes 30 to 60 seconds (lazy model load), so we use a
 // 90 second timeout.
 
+import { IS_STATIC_DEMO, resolveStatic, simulateLatency } from "./static-demo";
+
 const AI_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "https://macys-api-n6f3.onrender.com";
 
 const AI_TIMEOUT_MS = 180_000;
 
 async function aiRequest<T>(path: string, body: unknown): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>("POST", path, body);
+    if (result !== null) {
+      await simulateLatency();
+      return result;
+    }
+  }
   // Retry up to twice on timeout or 503 (common during Render cold starts).
   for (let attempt = 0; attempt < 3; attempt++) {
     const controller = new AbortController();
@@ -162,6 +171,7 @@ export async function callCascade(
 }
 
 export function warmupAI(): void {
+  if (IS_STATIC_DEMO) return;
   fetch(`${AI_BASE}/api/ai/warmup`).catch(() => {});
 }
 
@@ -177,6 +187,17 @@ export async function fetchActivity(
   campaignId?: string,
   limit: number = 10,
 ): Promise<{ events: ActivityEvent[]; count: number }> {
+  if (IS_STATIC_DEMO) {
+    const params = new URLSearchParams({ limit: limit.toString() });
+    if (campaignId) params.set("campaign_id", campaignId);
+    const path = `/api/ai/activity?${params}`;
+    const result = await resolveStatic<{ events: ActivityEvent[]; count: number }>(
+      "GET",
+      path,
+    );
+    if (result !== null) return result;
+    return { events: [], count: 0 };
+  }
   const params = new URLSearchParams({ limit: limit.toString() });
   if (campaignId) params.set("campaign_id", campaignId);
   const res = await fetch(`${AI_BASE}/api/ai/activity?${params}`, {

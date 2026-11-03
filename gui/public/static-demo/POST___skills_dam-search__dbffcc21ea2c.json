@@ -1,0 +1,253 @@
+{
+  "ok": true,
+  "brief": "Mother's Day Beauty Event",
+  "max_results": 12,
+  "results": [
+    {
+      "asset_id": 660,
+      "filename": "luxury-perfume-bottle_06_79FmeCtL9NE.jpg",
+      "asset_type": "product",
+      "tags": [
+        "sale",
+        "model",
+        "lifestyle",
+        "luxury",
+        "womens",
+        "beauty"
+      ],
+      "resolution": "1920x1080",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2026-04-28",
+      "rank": 1
+    },
+    {
+      "asset_id": 658,
+      "filename": "perfume_05_xQwRvghauaU.jpg",
+      "asset_type": "product",
+      "tags": [
+        "mothers-day",
+        "outerwear"
+      ],
+      "resolution": "2560x1440",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.5,
+      "_created_date": "2023-02-15",
+      "rank": 2
+    },
+    {
+      "asset_id": 638,
+      "filename": "cosmetics_06_tWng4d9Njxo.jpg",
+      "asset_type": "lifestyle",
+      "tags": [
+        "mens",
+        "studio",
+        "model",
+        "beauty",
+        "dresses",
+        "outdoor"
+      ],
+      "resolution": "1920x1080",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2023-03-18",
+      "rank": 3
+    },
+    {
+      "asset_id": 607,
+      "filename": "spa-wellness_05_hCTLx7QrE-w.jpg",
+      "asset_type": "product",
+      "tags": [
+        "shoes",
+        "dresses",
+        "mothers-day",
+        "accessories"
+      ],
+      "resolution": "2560x1440",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.5,
+      "_created_date": "2025-03-16",
+      "rank": 4
+    },
+    {
+      "asset_id": 605,
+      "filename": "skincare_10_SfkPaoE_i34.jpg",
+      "asset_type": "product",
+      "tags": [
+        "fragrance",
+        "sale",
+        "dresses",
+        "mothers-day",
+        "summer"
+      ],
+      "resolution": "1920x1080",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.8,
+      "_created_date": "2024-09-09",
+      "rank": 5
+    },
+    {
+      "asset_id": 593,
+      "filename": "product-photography-white_04_y3On8ZLjSvY.jpg",
+      "asset_type": "product",
+      "tags": [
+        "mothers-day",
+        "flatlay",
+        "fragrance",
+        "home",
+        "outerwear"
+      ],
+      "resolution": "3840x2160",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.8,
+      "_created_date": "2022-09-12",
+      "rank": 6
+    },
+    {
+      "asset_id": 586,
+      "filename": "eyeshadow-palette_10_PZ_-sCaBCaQ.jpg",
+      "asset_type": "product",
+      "tags": [
+        "mens",
+        "home",
+        "model",
+        "beauty",
+        "skincare"
+      ],
+      "resolution": "3840x2160",
+      "usage_rights": "restricted",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2026-04-24",
+      "rank": 7
+    },
+    {
+      "asset_id": 555,
+      "filename": "cosmetics_08_DEuob2v77wI.jpg",
+      "asset_type": "lifestyle",
+      "tags": [
+        "luxury",
+        "beauty",
+        "model"
+      ],
+      "resolution": "3840x2160",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2025-03-08",
+      "rank": 8
+    },
+    {
+      "asset_id": 545,
+      "filename": "makeup-brushes-flatlay_09_TwMFnifOyI8.jpg",
+      "asset_type": "product",
+      "tags": [
+        "outdoor",
+        "mothers-day",
+        "luxury"
+      ],
+      "resolution": "2560x1440",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.5,
+      "_created_date": "2025-03-16",
+      "rank": 9
+    },
+    {
+      "asset_id": 539,
+      "filename": "summer-fashion-outfit_09_aX3wFOC87Z8.jpg",
+      "asset_type": "product",
+      "tags": [
+        "denim",
+        "mothers-day",
+        "valentines"
+      ],
+      "resolution": "2560x1440",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.5,
+      "_created_date": "2023-11-20",
+      "rank": 10
+    },
+    {
+      "asset_id": 524,
+      "filename": "beauty-editorial-photo_03_BzSfM6n_LIE.jpg",
+      "asset_type": "product",
+      "tags": [
+        "summer",
+        "spring",
+        "flatlay",
+        "lunar-new-year",
+        "beauty"
+      ],
+      "resolution": "2560x1440",
+      "usage_rights": "free",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2023-05-09",
+      "rank": 11
+    },
+    {
+      "asset_id": 519,
+      "filename": "moisturizer-cream-jar_04_1kCDtHVl064.jpg",
+      "asset_type": "product",
+      "tags": [
+        "winter",
+        "beauty",
+        "lifestyle",
+        "indoor",
+        "model"
+      ],
+      "resolution": "1920x1080",
+      "usage_rights": "restricted",
+      "relevance_score": 1.0,
+      "quality_flag": "clean",
+      "has_photo": true,
+      "_raw_relevance": 0.55,
+      "_created_date": "2024-06-29",
+      "rank": 12
+    }
+  ],
+  "stats": {
+    "total_searched": 5000,
+    "filtered_out": {
+      "degraded": 1440,
+      "expired_rights": 358,
+      "low_resolution": 322
+    },
+    "filtered_total": 2120,
+    "kept": 2880,
+    "returned": 12,
+    "avg_relevance": 1.0,
+    "photo_backed_in_pool": 254,
+    "photo_backed_in_top": 12
+  }
+}

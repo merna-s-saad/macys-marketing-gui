@@ -4,6 +4,8 @@
 // runs locally (default localhost:8000) and against the deployed Render
 // backend on Vercel (set NEXT_PUBLIC_API_URL to the Render URL).
 
+import { IS_STATIC_DEMO, resolveStatic } from "./static-demo";
+
 export const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -13,6 +15,18 @@ export const API_BASE =
 const REQUEST_TIMEOUT_MS = 120_000;
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<T>(
+      init?.method ?? "GET",
+      path,
+      init?.body ? JSON.parse(init.body as string) : undefined,
+    );
+    if (result !== null) return result;
+    // Not found in static demo — fall through (will fail on Vercel without backend)
+    if (typeof window !== "undefined") {
+      console.warn(`[static-demo] request() falling through to live fetch: ${init?.method ?? "GET"} ${path}`);
+    }
+  }
   const url = `${API_BASE}${path}`;
   for (let attempt = 0; attempt < 2; attempt++) {
     const controller = new AbortController();
@@ -335,6 +349,23 @@ export async function advanceCampaign(
   action: string,
   metadata?: Record<string, unknown>,
 ): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const state = await resolveStatic<CampaignState>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/state`,
+    );
+    if (state) {
+      return {
+        ...state,
+        current_step: step + 1,
+        completed_steps: [...(state.completed_steps ?? []), step],
+        history: [
+          ...(state.history ?? []),
+          { step, step_name: `Step ${step}`, action, ts: new Date().toISOString(), metadata: metadata ?? {} },
+        ],
+      };
+    }
+  }
   return request<CampaignState>(
     `/campaigns/${encodeURIComponent(campaignId)}/advance`,
     {
@@ -345,6 +376,13 @@ export async function advanceCampaign(
 }
 
 export async function resetCampaign(campaignId: string): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const state = await resolveStatic<CampaignState>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/state`,
+    );
+    if (state) return state;
+  }
   return request<CampaignState>(
     `/campaigns/${encodeURIComponent(campaignId)}/reset`,
     { method: "POST" },
@@ -563,6 +601,13 @@ export type CampaignBriefInput = {
 };
 
 export async function createCampaign(data: CampaignBriefInput): Promise<CampaignBrief> {
+  if (IS_STATIC_DEMO) {
+    const ctx = await resolveStatic<{ campaign_brief: CampaignBrief }>(
+      "GET",
+      "/campaigns/MDC-2026-MD-001/context",
+    );
+    if (ctx) return { ...ctx.campaign_brief, name: data.name ?? ctx.campaign_brief.name };
+  }
   return request<CampaignBrief>("/campaigns", {
     method: "POST",
     body: JSON.stringify(data),
@@ -570,6 +615,13 @@ export async function createCampaign(data: CampaignBriefInput): Promise<Campaign
 }
 
 export async function updateCampaign(campaignId: string, data: CampaignBriefInput): Promise<CampaignBrief> {
+  if (IS_STATIC_DEMO) {
+    const ctx = await resolveStatic<{ campaign_brief: CampaignBrief }>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/context`,
+    );
+    if (ctx) return { ...ctx.campaign_brief, ...data } as CampaignBrief;
+  }
   return request<CampaignBrief>(`/campaigns/${encodeURIComponent(campaignId)}`, {
     method: "PUT",
     body: JSON.stringify(data),
@@ -579,24 +631,28 @@ export async function updateCampaign(campaignId: string, data: CampaignBriefInpu
 // ----- Review actions -----
 
 export async function approveStep(campaignId: string, stepId: string, persona = "campaign-manager"): Promise<{ ok: boolean }> {
+  if (IS_STATIC_DEMO) return { ok: true };
   return request(`/campaigns/${encodeURIComponent(campaignId)}/steps/${encodeURIComponent(stepId)}/approve`, {
     method: "POST", body: JSON.stringify({ persona }),
   });
 }
 
 export async function editStepOutput(campaignId: string, stepId: string, output: Record<string, unknown>, persona = "campaign-manager"): Promise<{ ok: boolean }> {
+  if (IS_STATIC_DEMO) return { ok: true };
   return request(`/campaigns/${encodeURIComponent(campaignId)}/steps/${encodeURIComponent(stepId)}/output`, {
     method: "PATCH", body: JSON.stringify({ persona, output }),
   });
 }
 
 export async function rejectStep(campaignId: string, stepId: string, reason: string, persona = "campaign-manager"): Promise<{ ok: boolean }> {
+  if (IS_STATIC_DEMO) return { ok: true };
   return request(`/campaigns/${encodeURIComponent(campaignId)}/steps/${encodeURIComponent(stepId)}/reject`, {
     method: "POST", body: JSON.stringify({ persona, reason }),
   });
 }
 
 export async function escalateStep(campaignId: string, stepId: string, reason = "", persona = "campaign-manager"): Promise<{ ok: boolean }> {
+  if (IS_STATIC_DEMO) return { ok: true };
   return request(`/campaigns/${encodeURIComponent(campaignId)}/steps/${encodeURIComponent(stepId)}/escalate`, {
     method: "POST", body: JSON.stringify({ persona, reason }),
   });
@@ -621,6 +677,7 @@ export async function fetchEvidence(campaignId: string, stepId: string): Promise
 }
 
 export async function storeEvidence(campaignId: string, stepId: string, evidence: Record<string, unknown>): Promise<void> {
+  if (IS_STATIC_DEMO) return;
   await request(`/campaigns/${encodeURIComponent(campaignId)}/evidence/${encodeURIComponent(stepId)}`, {
     method: "POST",
     body: JSON.stringify(evidence),
@@ -633,6 +690,27 @@ export async function advanceCampaignWithOutput(
   action: string,
   stepOutput?: Record<string, unknown>,
 ): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const state = await resolveStatic<CampaignState>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/state`,
+    );
+    if (state) {
+      return {
+        ...state,
+        current_step: step + 1,
+        completed_steps: [...(state.completed_steps ?? []), step],
+        step_outputs: {
+          ...(state.step_outputs ?? {}),
+          ...(stepOutput ? { [String(step)]: stepOutput } : {}),
+        },
+        history: [
+          ...(state.history ?? []),
+          { step, step_name: `Step ${step}`, action, ts: new Date().toISOString(), metadata: {} },
+        ],
+      };
+    }
+  }
   return request<CampaignState>(
     `/campaigns/${encodeURIComponent(campaignId)}/advance`,
     {
@@ -653,6 +731,13 @@ export async function requestRevisions(
   comment: string,
   requestedByPersonaId: string,
 ): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const state = await resolveStatic<CampaignState>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/state`,
+    );
+    if (state) return state;
+  }
   return request<CampaignState>(
     `/campaigns/${encodeURIComponent(campaignId)}/request-revisions`,
     {
@@ -671,6 +756,13 @@ export async function resubmitStep(
   campaignId: string,
   step: number,
 ): Promise<CampaignState> {
+  if (IS_STATIC_DEMO) {
+    const state = await resolveStatic<CampaignState>(
+      "GET",
+      `/campaigns/${encodeURIComponent(campaignId)}/state`,
+    );
+    if (state) return state;
+  }
   return request<CampaignState>(
     `/campaigns/${encodeURIComponent(campaignId)}/resubmit/${step}`,
     { method: "POST" },
@@ -685,6 +777,16 @@ export type ChatReply = {
 };
 
 export async function postChat(personaId: string, message: string): Promise<ChatReply> {
+  if (IS_STATIC_DEMO) {
+    const result = await resolveStatic<ChatReply>("POST", "/chat", { persona_id: personaId, message });
+    if (result !== null) return result;
+    // Generic fallback if no captured response matches
+    return {
+      response: "I'm running in demo mode. Try the pre-loaded campaign to see the full workflow.",
+      action: null,
+      data: null,
+    };
+  }
   return request<ChatReply>("/chat", {
     method: "POST",
     body: JSON.stringify({ persona_id: personaId, message }),

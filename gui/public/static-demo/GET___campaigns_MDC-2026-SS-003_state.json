@@ -1,0 +1,35 @@
+{
+  "current_step": 3,
+  "completed_steps": [
+    1,
+    2
+  ],
+  "step_outputs": {
+    "1": {
+      "summary": "Brief filed for Summer Style targeting Women and Men 22-40 with resort/vacation purchase history. Budget: $400K. Planned launch: July 1, 2026."
+    },
+    "2": {
+      "summary": "2 audience segments built: Summer Resort Shoppers (48K) and Vacation-Ready Loyalists (31K). Total reach: 79K qualified customers."
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "step_name": "Briefing",
+      "action": "Approved",
+      "ts": "2026-05-10T09:00:00Z",
+      "metadata": {}
+    },
+    {
+      "step": 2,
+      "step_name": "Segmentation",
+      "action": "Approved",
+      "ts": "2026-05-14T14:00:00Z",
+      "metadata": {}
+    }
+  ],
+  "is_complete": false,
+  "revisions": {},
+  "pending_revision": null,
+  "evidence": {}
+}
